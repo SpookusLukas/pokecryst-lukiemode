@@ -2644,6 +2644,10 @@ BattleAnim_Lick:
 	anim_wait 64
 	anim_ret
 
+BattleAnim_DazzleGleam:
+BattleAnim_PlayRough:
+BattleAnim_Moonblast:
+BattleAnim_FairyWind:
 BattleAnim_TriAttack:
 	anim_3gfx BATTLE_ANIM_GFX_FIRE, BATTLE_ANIM_GFX_ICE, BATTLE_ANIM_GFX_LIGHTNING
 	anim_call BattleAnimSub_Fire
