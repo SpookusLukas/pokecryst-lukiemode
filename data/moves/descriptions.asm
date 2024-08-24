@@ -1273,34 +1273,34 @@ BeatUpDescription:
 	db   "Party #MON join"
 	next "in the attack.@"
 
-DazzleGleamDescription
+DazzleGleamDescription:
 	db   "An attack that may"
 	next "reduce accuracy.@"
 
-FairyWindDescription
+FairyWindDescription:
 	db   "Strikes foe with"
 	next "an odd wind.@"
 
-MoonblastDescription
+MoonblastDescription:
 	db   "An attack that may"
 	next "lower SPCL.ATK.@"
 
-PlayRoughDescription
+PlayRoughDescription:
 	db   "An attack that may"
 	next "lower ATTACK.@"
 
-DrainingKissDescription
+DrainingKissDescription:
 	db   "A smooch that saps"
 	next "target's health.@"
 
-BabyDollEyesDescription
+BabyDollEyesDescription:
 	db   "Acts first to"
 	next "lower foe ATTACK.@"
 
-DisarmVoiceDescription
+DisarmVoiceDescription:
 	db   "An odd song that"
 	next "never misses.@"
 
-SpiritBreakDescription
+SpiritBreakDescription:
 	db   "A strike that"
 	next "lowers ATTACK.@"

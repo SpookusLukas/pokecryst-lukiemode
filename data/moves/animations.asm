@@ -2648,6 +2648,10 @@ BattleAnim_DazzleGleam:
 BattleAnim_PlayRough:
 BattleAnim_Moonblast:
 BattleAnim_FairyWind:
+BattleAnim_SpiritBreak:
+BattleAnim_DisarmVoice:
+BattleAnim_BabyDollEyes:
+BattleAnim_DrainingKiss:
 BattleAnim_TriAttack:
 	anim_3gfx BATTLE_ANIM_GFX_FIRE, BATTLE_ANIM_GFX_ICE, BATTLE_ANIM_GFX_LIGHTNING
 	anim_call BattleAnimSub_Fire
