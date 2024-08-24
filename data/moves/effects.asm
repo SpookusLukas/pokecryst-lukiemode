@@ -2077,3 +2077,16 @@ DefenseCurl:
 	statupmessage
 	statupfailtext
 	endmove
+
+BabyDollEyes:
+	checkobedience
+	usedmovetext
+	doturn
+	checkhit
+	attackdown
+	lowersub
+	statdownanim
+	raisesub
+	statdownmessage
+	statdownfailtext
+	endmove

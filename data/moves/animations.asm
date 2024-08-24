@@ -279,6 +279,14 @@ BattleAnimations::
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
+	dw BattleAnim_DazzleGleam
+	dw BattleAnim_FairyWind
+	dw BattleAnim_Moonblast
+	dw BattleAnim_PlayRough
+	dw BattleAnim_DrainingKiss
+	dw BattleAnim_BabyDollEyes
+	dw BattleAnim_DisarmVoice
+	dw BattleAnim_SpiritBreak
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 

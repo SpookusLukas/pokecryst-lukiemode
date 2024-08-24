@@ -256,6 +256,14 @@ MoveDescriptions1:
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw BeatUpDescription
+	dw DazzleGleamDescription
+	dw FairyWindDescription
+	dw MoonblastDescription
+	dw PlayRoughDescription
+	dw DrainingKissDescription
+	dw BabyDollEyesDescription
+	dw DisarmVoiceDescription
+	dw SpiritBreakDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1264,3 +1272,35 @@ WhirlpoolDescription:
 BeatUpDescription:
 	db   "Party #MON join"
 	next "in the attack.@"
+
+DazzleGleamDescription
+	db   "An attack that may"
+	next "reduce accuracy.@"
+
+FairyWindDescription
+	db   "Strikes foe with"
+	next "an odd wind.@"
+
+MoonblastDescription
+	db   "An attack that may"
+	next "lower SPCL.ATK.@"
+
+PlayRoughDescription
+	db   "An attack that may"
+	next "lower ATTACK.@"
+
+DrainingKissDescription
+	db   "A smooch that saps"
+	next "target's health.@"
+
+BabyDollEyesDescription
+	db   "Acts first to"
+	next "lower foe ATTACK.@"
+
+DisarmVoiceDescription
+	db   "An odd song that"
+	next "never misses.@"
+
+SpiritBreakDescription
+	db   "A strike that"
+	next "lowers ATTACK.@"
