@@ -263,4 +263,8 @@ MoveNames::
 	li "FIRE FANG"
 	li "THUNDER FANG"
 	li "ICE FANG"
+	li "GIGA IMPACT"
+	li "HYPER VOICE"
+	li "BOOMBURST"
+	li "COVET"
 	assert_list_length NUM_ATTACKS

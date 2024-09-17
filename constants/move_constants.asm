@@ -269,6 +269,10 @@
 	const FIRE_FANG    ; 105
 	const THUNDER_FANG ; 106
 	const ICE_FANG     ; 107
+	const GIGA_IMPACT  ; 108
+	const HYPER_VOICE  ; 109
+	const BOOMBURST    ; 10a
+	const COVET        ; 10b
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

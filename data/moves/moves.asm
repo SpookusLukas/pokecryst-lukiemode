@@ -281,4 +281,8 @@ Moves1:
 	move EFFECT_FIRE_FANG,          65, FIRE,           95, 15,  10      ;FIRE_FANG
 	move EFFECT_THUNDER_FANG,       65, ELECTRIC,       95, 15,  10      ;THUNDER_FANG 
 	move EFFECT_ICE_FANG,           65, ICE,            95, 15,  10      ;ICE_FANG 
+	move EFFECT_HYPER_BEAM,        150, NORMAL,         90,  5,   0      ;GIGA_IMPACT
+	move EFFECT_NORMAL_HIT,         90, NORMAL,        100, 10,   0      ;HYPER_VOICE
+	move EFFECT_NORMAL_HIT,        140, NORMAL,        100, 10,   0      ;BOOMBURST
+	move EFFECT_THIEF,              60, NORMAL,        100, 25,   0      ;COVET
 .IndirectEnd::

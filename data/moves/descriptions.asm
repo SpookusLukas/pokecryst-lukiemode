@@ -268,6 +268,10 @@ MoveDescriptions1:
 	dw FireFangDescription
 	dw ThunderFangDescription
 	dw IceFangDescription
+	dw GigaImpactDescription
+	dw HyperVoiceDescription
+	dw BoomburstDescription
+	dw CovetDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1324,3 +1328,19 @@ ThunderFangDescription:
 IceFangDescription:
 	db   "A bite that can"
 	next "flinch and FRZ.@"
+
+GigaImpactDescription:
+	db   "1st turn: Attack"
+	next "2nd turn: Rest@"
+
+HyperVoiceDescription: 
+	db   "A loud shout that"
+	next "damages the foe.@"
+
+BoomburstDescription: 
+	db   "An amazingly loud"
+	next "sound attack.@"
+
+CovetDescription:
+	db   "An attack that may"
+	next "steal a held item.@"
