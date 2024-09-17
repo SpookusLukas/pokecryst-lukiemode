@@ -1307,7 +1307,7 @@ DisarmVoiceDescription:
 
 SpiritBreakDescription:
 	db   "A strike that"
-	next "lowers ATTACK.@"
+	next "lowers SPEC.ATK.@"
 
 StrangeSteamDescription:
 	db   "An odd fog that"
