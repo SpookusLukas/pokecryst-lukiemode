@@ -280,6 +280,9 @@ MoveDescriptions1:
 	dw WildChargeDescription
 	dw ShockWaveDescription
 	dw ChargeBeamDescription
+	dw TripleAxelDescription
+	dw IceShardDescription
+	dw IcicleCrashDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1384,3 +1387,15 @@ ShockWaveDescription:
 ChargeBeamDescription: 
 	db   "Attack that may"
 	next "raise SPEC.ATK.@"
+
+TripleAxelDescription: 
+	db   "Hits three times"
+	next "with rising power.@"
+
+IceShardDescription: 
+	db   "Lets the user get"
+	next "in the first hit.@"
+
+IcicleCrashDescription:
+	db   "An attack that may"
+	next "cause flinching.@"

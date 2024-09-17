@@ -282,6 +282,9 @@
 	const WILD_CHARGE  ; 111
 	const SHOCK_WAVE   ; 112
 	const CHARGE_BEAM  ; 113
+	const TRIPLE_AXEL  ; 114
+	const ICE_SHARD    ; 115
+	const ICICLE_CRASH ; 116
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

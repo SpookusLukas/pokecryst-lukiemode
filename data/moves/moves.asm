@@ -294,4 +294,7 @@ Moves1:
 	move EFFECT_RECOIL_HIT,         90, ELECTRIC,       90, 15,   0      ;WILD_CHARGE
 	move EFFECT_ALWAYS_HIT,         60, ELECTRIC,      100, 20,   0      ;SHOCK_WAVE
 	move EFFECT_SP_ATK_UP_HIT,      50, ELECTRIC,       90, 10,  70      ;CHARGE_BEAM
+	move EFFECT_TRIPLE_KICK,        20, ICE,            90, 10,   0      ;TRIPLE_AXEL
+	move EFFECT_PRIORITY_HIT,       40, ICE,           100, 30,   0      ;ICE_SHARD
+	move EFFECT_FLINCH_HIT,         85, ICE,            90, 10,  30      ;ICICLE_CRASH
 .IndirectEnd::

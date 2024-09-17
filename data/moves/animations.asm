@@ -303,6 +303,9 @@ BattleAnimations::
 	dw BattleAnim_WildCharge
 	dw BattleAnim_ShockWave
 	dw BattleAnim_ChargeBeam
+	dw BattleAnim_TripleAxel
+	dw BattleAnim_IceShard
+	dw BattleAnim_IcicleCrash
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -760,6 +763,9 @@ BattleAnim_Nuzzle:
 BattleAnim_WildCharge:
 BattleAnim_ShockWave:
 BattleAnim_ChargeBeam:
+BattleAnim_TripleAxel:
+BattleAnim_IceShard:
+BattleAnim_IcicleCrash:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0

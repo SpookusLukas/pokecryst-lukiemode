@@ -275,4 +275,7 @@ MoveNames::
 	li "WILD CHARGE"
 	li "SHOCK WAVE"
 	li "CHARGE BEAM"
+	li "TRIPLE AXEL"
+	li "ICE SHARD"
+	li "ICICLE CRASH"
 	assert_list_length NUM_ATTACKS
