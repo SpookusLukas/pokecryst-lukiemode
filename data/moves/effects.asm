@@ -2090,3 +2090,76 @@ BabyDollEyes:
 	statdownmessage
 	statdownfailtext
 	endmove
+
+FireFang:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	defrost
+	checkfaint
+	buildopponentrage
+	kingsrock
+	burntarget
+	effectchance
+	flinchtarget
+	endmove
+
+ThunderFang:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	kingsrock
+	paralyzetarget
+	effectchance
+	flinchtarget
+	endmove
+
+IceFang:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	kingsrock
+	freezetarget
+	effectchance
+	flinchtarget
+	endmove

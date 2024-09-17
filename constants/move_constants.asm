@@ -266,6 +266,9 @@
 	const DISARM_VOICE ; 102
 	const SPIRIT_BREAK ; 103
 	const STRANGESTEAM ; 104
+	const FIRE_FANG    ; 105
+	const THUNDER_FANG ; 106
+	const ICE_FANG     ; 107
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

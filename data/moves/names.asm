@@ -260,4 +260,7 @@ MoveNames::
 	li "DISARM VOICE"
 	li "SPIRIT BREAK"
 	li "STRANGESTEAM"
+	li "FIRE FANG"
+	li "THUNDER FANG"
+	li "ICE FANG"
 	assert_list_length NUM_ATTACKS

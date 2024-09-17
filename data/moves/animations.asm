@@ -288,6 +288,9 @@ BattleAnimations::
 	dw BattleAnim_DisarmVoice
 	dw BattleAnim_SpiritBreak
 	dw BattleAnim_StrangeSteam
+	dw BattleAnim_FireFang
+	dw BattleAnim_ThunderFang
+	dw BattleAnim_IceFang
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -730,6 +733,9 @@ BattleAnim_BabyDollEyes:
 BattleAnim_DisarmVoice:
 BattleAnim_SpiritBreak:
 BattleAnim_StrangeSteam:
+BattleAnim_FireFang:
+BattleAnim_ThunderFang:
+BattleAnim_IceFang:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0

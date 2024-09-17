@@ -265,6 +265,9 @@ MoveDescriptions1:
 	dw DisarmVoiceDescription
 	dw SpiritBreakDescription
 	dw StrangeSteamDescription
+	dw FireFangDescription
+	dw ThunderFangDescription
+	dw IceFangDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1309,3 +1312,15 @@ SpiritBreakDescription:
 StrangeSteamDescription:
 	db   "An odd fog that"
 	next "may confuse foe.@"
+
+FireFangDescription:
+	db   "A bite that can"
+	next "flinch and BRN.@"
+
+ThunderFangDescription:
+	db   "A bite that can"
+	next "flinch and PRZ.@"
+
+IceFangDescription:
+	db   "A bite that can"
+	next "flinch and FRZ.@"

@@ -278,4 +278,7 @@ Moves1:
 	move EFFECT_ALWAYS_HIT,         50, FAIRY,         100, 15,   0      ;DISARM_VOICE
 	move EFFECT_SP_ATK_DOWN_HIT,    75, FAIRY,         100, 15, 100      ;SPIRIT_BREAK
 	move EFFECT_CONFUSE_HIT,        90, FAIRY,          95, 10,  20      ;STRANGESTEAM
+	move EFFECT_FIRE_FANG,          65, FIRE,           95, 15,  10      ;FIRE_FANG
+	move EFFECT_THUNDER_FANG,       65, ELECTRIC,       95, 15,  10      ;THUNDER_FANG 
+	move EFFECT_ICE_FANG,           65, ICE,            95, 15,  10      ;ICE_FANG 
 .IndirectEnd::
