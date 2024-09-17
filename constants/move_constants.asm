@@ -273,6 +273,7 @@
 	const HYPER_VOICE  ; 109
 	const BOOMBURST    ; 10a
 	const COVET        ; 10b
+	const FLARE_BLITZ  ; 10c
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

@@ -2162,3 +2162,27 @@ IceFang:
 	effectchance
 	flinchtarget
 	endmove
+
+FlareBlitz:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	defrost
+	recoil
+	checkfaint
+	buildopponentrage
+	kingsrock
+	burntarget
+	endmove

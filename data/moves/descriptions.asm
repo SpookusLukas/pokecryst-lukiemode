@@ -272,6 +272,7 @@ MoveDescriptions1:
 	dw HyperVoiceDescription
 	dw BoomburstDescription
 	dw CovetDescription
+	dw FlareBlitzDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1344,3 +1345,7 @@ BoomburstDescription:
 CovetDescription:
 	db   "An attack that may"
 	next "steal a held item.@"
+
+FlareBlitzDescription: 
+	db   "A tackle that also"
+	next "hurts the user.@"

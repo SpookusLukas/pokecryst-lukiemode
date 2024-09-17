@@ -267,4 +267,5 @@ MoveNames::
 	li "HYPER VOICE"
 	li "BOOMBURST"
 	li "COVET"
+	li "FLARE BLITZ"
 	assert_list_length NUM_ATTACKS
