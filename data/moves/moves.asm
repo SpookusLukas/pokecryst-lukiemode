@@ -269,6 +269,7 @@ Moves1:
 	move EFFECT_DEFENSE_DOWN_HIT,   20, FIGHTING,      100, 15,  50      ;ROCK_SMASH
 	move EFFECT_TRAP_TARGET,        15, WATER,          70, 15,   0      ;WHIRLPOOL
 	move EFFECT_BEAT_UP,            10, DARK,          100, 10,   0      ;BEAT_UP
+	;;; new moves start here
 	move EFFECT_ACCURACY_DOWN_HIT,	80, FAIRY,         100, 10,  10      ;DAZZLE_GLEAM
 	move EFFECT_NORMAL_HIT,         40, FAIRY,         100, 30,   0      ;FAIRY_WIND
 	move EFFECT_SP_ATK_DOWN_HIT,    95, FAIRY,          95, 15,  30      ;MOONBLAST
@@ -289,4 +290,7 @@ Moves1:
 	move EFFECT_SPEED_UP_HIT,       50, FIRE,          100, 20, 100      ;FLAME_CHARGE
 	move EFFECT_SP_ATK_DOWN_HIT,    75, FIRE,          100, 10, 100      ;MYSTIC_FIRE
 	move EFFECT_BURN_HIT,           95, FIRE,           90, 10,  10      ;HEAT_WAVE
+	move EFFECT_PARALYZE_HIT,       20, ELECTRIC,      100, 20, 100      ;NUZZLE
+	move EFFECT_RECOIL_HIT,         90, ELECTRIC,       90, 15,   0      ;WILD_CHARGE
+	move EFFECT_ALWAYS_HIT,         60, ELECTRIC,      100, 20,   0      ;SHOCK_WAVE
 .IndirectEnd::

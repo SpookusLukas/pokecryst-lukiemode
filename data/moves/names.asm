@@ -271,4 +271,7 @@ MoveNames::
 	li "FLAME CHARGE"
 	li "MYSTIC FIRE"
 	li "HEAT WAVE"
+	li "NUZZLE"
+	li "WILD CHARGE"
+	li "SHOCK WAVE"
 	assert_list_length NUM_ATTACKS

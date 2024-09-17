@@ -276,6 +276,9 @@ MoveDescriptions1:
 	dw FlameChargeDescription
 	dw MysticFireDescription
 	dw HeatWaveDescription
+	dw NuzzleDescription
+	dw WildChargeDescription
+	dw ShockWaveDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1364,3 +1367,15 @@ MysticFireDescription:
 HeatWaveDescription:
 	db   "A wind that may"
 	next "burn the foe.@"
+
+NuzzleDescription: 
+	db   "A cuddle that will"
+	next "always PRZ target.@"
+
+WildChargeDescription: 
+	db   "A tackle that also"
+	next "hurts the user.@"
+
+ShockWaveDescription:
+	db   "A zap that never"
+	next "misses the foe.@"
