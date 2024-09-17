@@ -273,7 +273,7 @@ Moves1:
 	move EFFECT_NORMAL_HIT,         40, FAIRY,         100, 30,   0      ;FAIRY_WIND
 	move EFFECT_SP_ATK_DOWN_HIT,    95, FAIRY,          95, 15,  30      ;MOONBLAST
 	move EFFECT_ATTACK_DOWN_HIT,    90, FAIRY,          90, 10,  10      ;PLAY_ROUGH
-	move EFFECT_LEECH_HIT,         100, FAIRY,         100, 10,   0      ;DRAININGKISS
+	move EFFECT_LEECH_HIT,          60, FAIRY,         100, 10,   0      ;DRAININGKISS
 	move EFFECT_BABYDOLLEYES,        0, FAIRY,         100, 30,   0      ;BABYDOLLEYES
 	move EFFECT_ALWAYS_HIT,         50, FAIRY,         100, 15,   0      ;DISARM_VOICE
 	move EFFECT_SP_ATK_DOWN_HIT,    75, FAIRY,         100, 15, 100      ;SPIRIT_BREAK
