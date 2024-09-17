@@ -163,4 +163,5 @@ MoveEffectsPointers:
 	dw ThunderFang
 	dw IceFang
 	dw FlareBlitz
+	dw SpeedUpHit
 	assert_table_length NUM_MOVE_EFFECTS

@@ -273,6 +273,7 @@ MoveDescriptions1:
 	dw BoomburstDescription
 	dw CovetDescription
 	dw FlareBlitzDescription
+	dw FlameChargeDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1349,3 +1350,7 @@ CovetDescription:
 FlareBlitzDescription: 
 	db   "A tackle that also"
 	next "hurts the user.@"
+
+FlameChargeDescription:
+	db   "An attack that"
+	next "ups user's SPEED.@"

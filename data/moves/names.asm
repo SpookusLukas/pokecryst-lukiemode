@@ -268,4 +268,5 @@ MoveNames::
 	li "BOOMBURST"
 	li "COVET"
 	li "FLARE BLITZ"
+	li "FLAME CHARGE"
 	assert_list_length NUM_ATTACKS

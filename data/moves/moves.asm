@@ -286,4 +286,5 @@ Moves1:
 	move EFFECT_NORMAL_HIT,        140, NORMAL,        100, 10,   0      ;BOOMBURST
 	move EFFECT_THIEF,              60, NORMAL,        100, 25,   0      ;COVET
 	move EFFECT_FLARE_BLITZ,       120, FIRE,          100, 15,  10      ;FLARE_BLITZ
+	move EFFECT_SPEED_UP_HIT,       50, FIRE,          100, 20, 100      ;FLAME_CHARGE
 .IndirectEnd::
