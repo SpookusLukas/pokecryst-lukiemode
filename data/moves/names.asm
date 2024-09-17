@@ -269,4 +269,6 @@ MoveNames::
 	li "COVET"
 	li "FLARE BLITZ"
 	li "FLAME CHARGE"
+	li "MYSTIC FIRE"
+	li "HEAT WAVE"
 	assert_list_length NUM_ATTACKS

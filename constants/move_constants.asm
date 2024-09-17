@@ -275,6 +275,8 @@
 	const COVET        ; 10b
 	const FLARE_BLITZ  ; 10c
 	const FLAME_CHARGE ; 10d
+	const MYSTIC_FIRE  ; 10e
+	const HEAT_WAVE    ; 10f
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

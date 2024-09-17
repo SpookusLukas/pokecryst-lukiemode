@@ -287,4 +287,6 @@ Moves1:
 	move EFFECT_THIEF,              60, NORMAL,        100, 25,   0      ;COVET
 	move EFFECT_FLARE_BLITZ,       120, FIRE,          100, 15,  10      ;FLARE_BLITZ
 	move EFFECT_SPEED_UP_HIT,       50, FIRE,          100, 20, 100      ;FLAME_CHARGE
+	move EFFECT_SP_ATK_DOWN_HIT,    75, FIRE,          100, 10, 100      ;MYSTIC_FIRE
+	move EFFECT_BURN_HIT,           95, FIRE,           90, 10,  10      ;HEAT_WAVE
 .IndirectEnd::

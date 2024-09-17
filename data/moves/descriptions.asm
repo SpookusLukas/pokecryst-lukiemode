@@ -274,6 +274,8 @@ MoveDescriptions1:
 	dw CovetDescription
 	dw FlareBlitzDescription
 	dw FlameChargeDescription
+	dw MysticFireDescription
+	dw HeatWaveDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1354,3 +1356,11 @@ FlareBlitzDescription:
 FlameChargeDescription:
 	db   "An attack that"
 	next "ups user's SPEED.@"
+
+MysticFireDescription:
+	db   "An attack that"
+	next "lowers SPCL.ATK.@"
+
+HeatWaveDescription:
+	db   "A wind that may"
+	next "burn the foe.@"
