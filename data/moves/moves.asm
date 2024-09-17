@@ -277,4 +277,5 @@ Moves1:
 	move EFFECT_BABYDOLLEYES,        0, FAIRY,         100, 30,   0      ;BABYDOLLEYES
 	move EFFECT_ALWAYS_HIT,         50, FAIRY,         100, 15,   0      ;DISARM_VOICE
 	move EFFECT_SP_ATK_DOWN_HIT,    75, FAIRY,         100, 15, 100      ;SPIRIT_BREAK
+	move EFFECT_CONFUSE_HIT,        90, FAIRY,          95, 10,  20      ;STRANGESTEAM
 .IndirectEnd::
