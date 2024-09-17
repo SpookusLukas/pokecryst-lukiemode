@@ -2208,3 +2208,47 @@ SpeedUpHit:
 	checkfaint
 	buildopponentrage
 	endmove
+
+SpecialAttackUpHit:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	specialattackup
+	statupmessage
+	checkfaint
+	buildopponentrage
+	endmove
+
+SpecialDefenseUpHit:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	specialdefenseup
+	statupmessage
+	checkfaint
+	buildopponentrage
+	endmove

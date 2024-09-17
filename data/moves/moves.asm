@@ -293,4 +293,5 @@ Moves1:
 	move EFFECT_PARALYZE_HIT,       20, ELECTRIC,      100, 20, 100      ;NUZZLE
 	move EFFECT_RECOIL_HIT,         90, ELECTRIC,       90, 15,   0      ;WILD_CHARGE
 	move EFFECT_ALWAYS_HIT,         60, ELECTRIC,      100, 20,   0      ;SHOCK_WAVE
+	move EFFECT_SP_ATK_UP_HIT,      50, ELECTRIC,       90, 10,  70      ;CHARGE_BEAM
 .IndirectEnd::

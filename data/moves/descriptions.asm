@@ -279,6 +279,7 @@ MoveDescriptions1:
 	dw NuzzleDescription
 	dw WildChargeDescription
 	dw ShockWaveDescription
+	dw ChargeBeamDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1379,3 +1380,7 @@ WildChargeDescription:
 ShockWaveDescription:
 	db   "A zap that never"
 	next "misses the foe.@"
+
+ChargeBeamDescription: 
+	db   "Attack that may"
+	next "raise SPEC.ATK.@"

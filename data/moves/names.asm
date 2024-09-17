@@ -274,4 +274,5 @@ MoveNames::
 	li "NUZZLE"
 	li "WILD CHARGE"
 	li "SHOCK WAVE"
+	li "CHARGE BEAM"
 	assert_list_length NUM_ATTACKS
