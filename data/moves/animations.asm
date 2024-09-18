@@ -351,6 +351,9 @@ BattleAnimations::
 	dw BattleAnim_ShadowSneak
 	dw BattleAnim_OminousWind
 	dw BattleAnim_PhantomForce
+	dw BattleAnim_DragonClaw
+	dw BattleAnim_DragonPulse
+	dw BattleAnim_DragonRush
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -853,6 +856,9 @@ BattleAnim_ShadowClaw:
 BattleAnim_ShadowSneak:
 BattleAnim_OminousWind:
 BattleAnim_PhantomForce:
+BattleAnim_DragonClaw:
+BattleAnim_DragonPulse:
+BattleAnim_DragonRush:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0

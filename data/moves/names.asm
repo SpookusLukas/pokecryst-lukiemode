@@ -321,4 +321,7 @@ MoveNames::
 	li "SHADOW SNEAK"
 	li "OMINOUS WIND"
 	li "PHANTOMFORCE"
+	li "DRAGON CLAW"
+	li "DRAGON PULSE"
+	li "DRAGON RUSH"
 	assert_list_length NUM_ATTACKS

@@ -340,4 +340,7 @@ Moves1:
 	move EFFECT_PRIORITY_HIT,       40, GHOST,         100, 30,   0      ;SHADOW_SNEAK
 	move EFFECT_ALL_UP_HIT,         60, GHOST,         100,  5,   0      ;OMINOUS_WIND
 	move EFFECT_FLY,                90, GHOST,         100, 10,   0      ;PHANTOMFORCE
+	move EFFECT_NORMAL_HIT,         80, DRAGON,        100, 15,   0      ;DRAGON_CLAW
+	move EFFECT_NORMAL_HIT,         85, DRAGON,        100, 10,   0      ;DRAGON_PULSE
+	move EFFECT_FLINCH_HIT,        100, DRAGON,         75, 10,   0      ;DRAGON_RUSH
 .IndirectEnd::

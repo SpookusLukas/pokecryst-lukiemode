@@ -328,6 +328,9 @@
 	const SHADOW_SNEAK ; 13f
 	const OMINOUS_WIND ; 140
 	const PHANTOMFORCE ; 141
+	const DRAGON_CLAW  ; 142
+	const DRAGON_PULSE ; 143
+	const DRAGON_RUSH  ; 144
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

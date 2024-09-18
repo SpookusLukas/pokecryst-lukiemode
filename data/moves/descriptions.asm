@@ -326,6 +326,9 @@ MoveDescriptions1:
 	dw ShadowSneakDescription
 	dw OminousWindDescription
 	dw PhantomForceDescription
+	dw DragonClawDescription
+	dw DragonPulseDescription
+	dw DragonRushDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1614,3 +1617,15 @@ OminousWindDescription:
 PhantomForceDescription: 
 	db   "1st turn: Vanish"
 	next "2nd turn: Attack@"
+
+DragonClawDescription: 
+	db   "Strike with a"
+	next "viscious rend.@"
+
+DragonPulseDescription: 
+	db   "Strike with a"
+	next "draconic aura.@"
+
+DragonRushDescription:
+	db   "Inaccurate, but"
+	next "may flinch foe.@"
