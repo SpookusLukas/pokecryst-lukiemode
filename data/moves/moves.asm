@@ -347,4 +347,10 @@ Moves1:
 	move EFFECT_SP_ATK_UP_2,         0, DARK,          100, 20,   0      ;NASTY_PLOT
 	move EFFECT_SP_ATK_DOWN_HIT,    55, DARK,           95, 15, 100      ;SNARL
 	move EFFECT_NORMAL_HIT,         70, DARK,          100, 15,   0      ;NIGHT_SLASH
+	move EFFECT_SP_DEF_DOWN_HIT,    80, STEEL,         100, 10,  10      ;FLASH_CANNON
+	move EFFECT_DEFENSE_UP_2,        0, STEEL,         100, 15,   0      ;IRON_DEFENSE
+	move EFFECT_ACCURACY_DOWN_HIT,  65, STEEL,          85, 10,  30      ;MIRROR_SHOT
+	move EFFECT_FLINCH_HIT,         80, STEEL,         100, 15,  30      ;IRON_HEAD
+	move EFFECT_PRIORITY_HIT,       40, STEEL,         100, 30,   0      ;BULLET_PUNCH
+	move EFFECT_ALWAYS_HIT,         70, STEEL,         100, 10,   0      ;SMART_STRIKE
 .IndirectEnd::

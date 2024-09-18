@@ -328,4 +328,10 @@ MoveNames::
 	li "NASTY PLOT"
 	li "SNARL"
 	li "NIGHT SLASH"
+	li "FLASH CANNON"
+	li "IRON DEFENSE"
+	li "MIRROR SHOT"
+	li "IRON HEAD"
+	li "BULLET PUNCH"
+	li "SMART STRIKE"
 	assert_list_length NUM_ATTACKS

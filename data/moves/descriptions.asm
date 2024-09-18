@@ -333,6 +333,12 @@ MoveDescriptions1:
 	dw NastyPlotDescription
 	dw SnarlDescription
 	dw NightSlashDescription
+	dw FlashCannonDescription
+	dw IronDefenseDescription
+	dw MirrorShotDescription
+	dw IronHeadDescription
+	dw BulletPunchDescription
+	dw SmartStrikeDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1649,3 +1655,27 @@ SnarlDescription:
 NightSlashDescription: 
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
+
+FlashCannonDescription: 
+	db   "An attack that may"
+	next "lower SPCL.ATK.@"
+
+IronDefenseDescription: 
+	db   "Sharply raises"
+	next "user's DEFENSE.@"
+
+MirrorShotDescription: 
+	db   "An attack that may"
+	next "reduce accuracy.@"
+
+IronHeadDescription: 
+	db   "An attack that may"
+	next "cause flinching.@"
+
+BulletPunchDescription:
+	db   "Lets the user get"
+	next "in the first hit.@"
+
+SmartStrikeDescription:
+	db   "An attack that"
+	next "never misses.@"

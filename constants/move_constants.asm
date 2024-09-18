@@ -335,6 +335,12 @@
 	const NASTY_PLOT   ; 146
 	const SNARL        ; 147
 	const NIGHT_SLASH  ; 148
+	const FLASH_CANNON ; 149
+	const IRON_DEFENSE ; 14a
+	const MIRROR_SHOT  ; 14b
+	const IRON_HEAD    ; 14c
+	const BULLET_PUNCH ; 14d
+	const SMART_STRIKE ; 14e
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

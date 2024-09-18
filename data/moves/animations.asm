@@ -358,6 +358,12 @@ BattleAnimations::
 	dw BattleAnim_NastyPlot
 	dw BattleAnim_Snarl
 	dw BattleAnim_NightSlash
+	dw BattleAnim_FlashCannon
+	dw BattleAnim_IronDefense
+	dw BattleAnim_MirrorShot
+	dw BattleAnim_IronHead
+	dw BattleAnim_BulletPunch
+	dw BattleAnim_SmartStrike
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -867,6 +873,12 @@ BattleAnim_DarkPulse:
 BattleAnim_NastyPlot:
 BattleAnim_Snarl:
 BattleAnim_NightSlash:
+BattleAnim_FlashCannon:
+BattleAnim_IronDefense:
+BattleAnim_MirrorShot:
+BattleAnim_IronHead:
+BattleAnim_BulletPunch:
+BattleAnim_SmartStrike:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0
