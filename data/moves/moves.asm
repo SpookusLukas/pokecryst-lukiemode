@@ -343,4 +343,8 @@ Moves1:
 	move EFFECT_NORMAL_HIT,         80, DRAGON,        100, 15,   0      ;DRAGON_CLAW
 	move EFFECT_NORMAL_HIT,         85, DRAGON,        100, 10,   0      ;DRAGON_PULSE
 	move EFFECT_FLINCH_HIT,        100, DRAGON,         75, 10,   0      ;DRAGON_RUSH
+	move EFFECT_FLINCH_HIT,         80, DARK,          100, 15,  20      ;DARK_PULSE
+	move EFFECT_SP_ATK_UP_2,         0, DARK,          100, 20,   0      ;NASTY_PLOT
+	move EFFECT_SP_ATK_DOWN_HIT,    55, DARK,           95, 15, 100      ;SNARL
+	move EFFECT_NORMAL_HIT,         70, DARK,          100, 15,   0      ;NIGHT_SLASH
 .IndirectEnd::

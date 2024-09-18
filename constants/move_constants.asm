@@ -331,6 +331,10 @@
 	const DRAGON_CLAW  ; 142
 	const DRAGON_PULSE ; 143
 	const DRAGON_RUSH  ; 144
+	const DARK_PULSE   ; 145
+	const NASTY_PLOT   ; 146
+	const SNARL        ; 147
+	const NIGHT_SLASH  ; 148
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

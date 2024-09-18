@@ -354,6 +354,10 @@ BattleAnimations::
 	dw BattleAnim_DragonClaw
 	dw BattleAnim_DragonPulse
 	dw BattleAnim_DragonRush
+	dw BattleAnim_DarkPulse
+	dw BattleAnim_NastyPlot
+	dw BattleAnim_Snarl
+	dw BattleAnim_NightSlash
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -859,6 +863,10 @@ BattleAnim_PhantomForce:
 BattleAnim_DragonClaw:
 BattleAnim_DragonPulse:
 BattleAnim_DragonRush:
+BattleAnim_DarkPulse:
+BattleAnim_NastyPlot:
+BattleAnim_Snarl:
+BattleAnim_NightSlash:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0

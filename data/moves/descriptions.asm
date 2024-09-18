@@ -329,6 +329,10 @@ MoveDescriptions1:
 	dw DragonClawDescription
 	dw DragonPulseDescription
 	dw DragonRushDescription
+	dw DarkPulseDescription
+	dw NastyPlotDescription
+	dw SnarlDescription
+	dw NightSlashDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1629,3 +1633,19 @@ DragonPulseDescription:
 DragonRushDescription:
 	db   "Inaccurate, but"
 	next "may flinch foe.@"
+
+DarkPulseDescription: 
+	db   "An attack that may"
+	next "cause flinching.@"
+
+NastyPlotDescription: 
+	db   "Sharply raises"
+	next "user's SPCL.ATK.@"
+
+SnarlDescription: 
+	db   "An attack that may"
+	next "lower SPCL.ATK.@"
+
+NightSlashDescription: 
+	db   "Has a high criti-"
+	next "cal hit ratio.@"

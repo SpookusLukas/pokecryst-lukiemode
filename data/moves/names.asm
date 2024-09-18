@@ -324,4 +324,8 @@ MoveNames::
 	li "DRAGON CLAW"
 	li "DRAGON PULSE"
 	li "DRAGON RUSH"
+	li "DARK PULSE"
+	li "NASTY PLOT"
+	li "SNARL"
+	li "NIGHT SLASH"
 	assert_list_length NUM_ATTACKS
