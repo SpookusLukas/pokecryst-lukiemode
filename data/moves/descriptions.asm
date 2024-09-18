@@ -317,6 +317,11 @@ MoveDescriptions1:
 	dw PounceDescription
 	dw BugBuzzDescription
 	dw SignalBeamDescription
+	dw RockTombDescription
+	dw PowerGemDescription
+	dw StoneEdgeDescription
+	dw RockPolishDescription
+	dw RockBlastDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1569,3 +1574,23 @@ BugBuzzDescription:
 SignalBeamDescription: 
 	db   "A weird light that"
 	next "may confuse.@"
+
+RockTombDescription: 
+	db   "Boulders that"
+	next "lower foe's speed.@"
+
+PowerGemDescription: 
+	db   "Crystals shine and"
+	next "deal damage."
+
+StoneEdgeDescription: 
+	db   "Has a high criti-"
+	next "cal hit ratio.@"
+
+RockPolishDescription: 
+	db   "Sharply raises"
+	next "user's speed.@"
+
+RockBlastDescription:
+	db   "Repeatedly strikes"
+	next "2-5 times.@"

@@ -342,6 +342,11 @@ BattleAnimations::
 	dw BattleAnim_Pounce
 	dw BattleAnim_BugBuzz
 	dw BattleAnim_SignalBeam
+	dw BattleAnim_RockTomb
+	dw BattleAnim_PowerGem
+	dw BattleAnim_StoneEdge
+	dw BattleAnim_RockPolish
+	dw BattleAnim_RockBlast
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -835,6 +840,11 @@ BattleAnim_Lunge:
 BattleAnim_Pounce:
 BattleAnim_BugBuzz:
 BattleAnim_SignalBeam:
+BattleAnim_RockTomb:
+BattleAnim_PowerGem:
+BattleAnim_StoneEdge:
+BattleAnim_RockPolish:
+BattleAnim_RockBlast:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0

@@ -331,4 +331,9 @@ Moves1:
 	move EFFECT_SPEED_DOWN_HIT,     50, BUG,           100, 20, 100      ;POUNCE
 	move EFFECT_SP_DEF_DOWN_HIT,    90, BUG,           100, 10,  10      ;BUG_BUZZ
 	move EFFECT_CONFUSE_HIT,        75, BUG,           100, 15,  10      ;SIGNAL_BEAM
+	move EFFECT_SPEED_DOWN_HIT,     60, ROCK,           95, 15, 100      ;ROCK_TOMB
+	move EFFECT_NORMAL_HIT,         80, ROCK,          100, 20,   0      ;POWER_GEM
+	move EFFECT_NORMAL_HIT,        100, ROCK,           80,  5,   0      ;STONE_EDGE
+	move EFFECT_SPEED_UP_2,          0, ROCK,          100, 20,   0      ;ROCK_POLISH
+	move EFFECT_MULTI_HIT,          25, ROCK,           90, 10,   0      ;ROCK_BLAST
 .IndirectEnd::

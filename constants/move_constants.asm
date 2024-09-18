@@ -319,6 +319,11 @@
 	const POUNCE       ; 136
 	const BUG_BUZZ     ; 137
 	const SIGNAL_BEAM  ; 138
+	const ROCK_TOMB    ; 139
+	const POWER_GEM    ; 13a
+	const STONE_EDGE   ; 13b
+	const ROCK_POLISH  ; 13c
+	const ROCK_BLAST   ; 13d
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

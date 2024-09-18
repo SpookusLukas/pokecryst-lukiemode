@@ -312,4 +312,9 @@ MoveNames::
 	li "POUNCE"
 	li "BUG BUZZ"
 	li "SIGNAL BEAM"
+	li "ROCK TOMB"
+	li "POWER GEM"
+	li "STONE EDGE"
+	li "ROCK POLISH"
+	li "ROCK BLAST"
 	assert_list_length NUM_ATTACKS
