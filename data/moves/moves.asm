@@ -319,4 +319,8 @@ Moves1:
 	move EFFECT_SP_DEF_DOWN_HIT,    90, GROUND,        100, 10,  10      ;EARTH_POWER
 	move EFFECT_ACCURACY_DOWN_HIT,  65, GROUND,         85, 10,  30      ;MUD_BOMB
 	move EFFECT_NORMAL_HIT,         80, GROUND,         95, 10,   0      ;DRILL_RUN
+	move EFFECT_ALWAYS_HIT,         60, FLYING,        100, 20,   0      ;AERIAL_ACE
+	move EFFECT_FLINCH_HIT,         75, FLYING,         95, 15,  30      ;AIR_SLASH
+	move EFFECT_RECOIL_HIT,        120, FLYING,        100, 15,   0      ;BRAVE_BIRD
+	move EFFECT_DOUBLE_HIT,         40, FLYING,         90, 10,   0      ;DUALWINGBEAT
 .IndirectEnd::

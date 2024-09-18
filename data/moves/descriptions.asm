@@ -305,6 +305,10 @@ MoveDescriptions1:
 	dw EarthPowerDescription
 	dw MudBombDescription
 	dw DrillRunDescription
+	dw AerialAceDescription
+	dw AirSlashDescription
+	dw BraveBirdDescription
+	dw DualWingbeatDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1509,3 +1513,19 @@ MudBombDescription:
 DrillRunDescription: 
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
+
+AerialAceDescription: 
+	db   "An attack that"
+	next "never misses.@"
+
+AirSlashDescription: 
+	db   "An attack that may"
+	next "cause flinching.@"
+
+BraveBirdDescription: 
+	db   "A tackle that also"
+	next "hurts the user.@"
+
+DualWingbeatDescription: 
+	db   "An attack that"
+	next "uses both wings.@"

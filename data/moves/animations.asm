@@ -330,6 +330,10 @@ BattleAnimations::
 	dw BattleAnim_EarthPower
 	dw BattleAnim_MudBomb
 	dw BattleAnim_DrillRun
+	dw BattleAnim_AerialAce
+	dw BattleAnim_AirSlash
+	dw BattleAnim_BraveBird
+	dw BattleAnim_DualWingbeat
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -811,6 +815,10 @@ BattleAnim_Bulldoze:
 BattleAnim_EarthPower:
 BattleAnim_MudBomb:
 BattleAnim_DrillRun:
+BattleAnim_AerialAce:
+BattleAnim_AirSlash:
+BattleAnim_BraveBird:
+BattleAnim_DualWingbeat:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0

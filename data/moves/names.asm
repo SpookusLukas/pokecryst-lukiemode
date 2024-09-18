@@ -300,4 +300,8 @@ MoveNames::
 	li "EARTH POWER"
 	li "MUD BOMB"
 	li "DRILL RUN"
+	li "AERIAL ACE"
+	li "AIR SLASH"
+	li "BRAVE BIRD"
+	li "DUALWINGBEAT"
 	assert_list_length NUM_ATTACKS

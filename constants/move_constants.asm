@@ -307,6 +307,10 @@
 	const EARTH_POWER  ; 12a
 	const MUD_BOMB     ; 12b
 	const DRILL_RUN    ; 12c
+	const AERIAL_ACE   ; 12d
+	const AIR_SLASH    ; 12e
+	const BRAVE_BIRD   ; 12f
+	const DUALWINGBEAT ; 130
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff
