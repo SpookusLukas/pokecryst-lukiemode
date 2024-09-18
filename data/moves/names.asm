@@ -304,4 +304,7 @@ MoveNames::
 	li "AIR SLASH"
 	li "BRAVE BIRD"
 	li "DUALWINGBEAT"
+	li "ZEN HEADBUTT"
+	li "EXTRASENSORY"
+	li "PSYCHO CUT"
 	assert_list_length NUM_ATTACKS

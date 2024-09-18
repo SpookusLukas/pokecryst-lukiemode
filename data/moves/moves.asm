@@ -323,4 +323,7 @@ Moves1:
 	move EFFECT_FLINCH_HIT,         75, FLYING,         95, 15,  30      ;AIR_SLASH
 	move EFFECT_RECOIL_HIT,        120, FLYING,        100, 15,   0      ;BRAVE_BIRD
 	move EFFECT_DOUBLE_HIT,         40, FLYING,         90, 10,   0      ;DUALWINGBEAT
+	move EFFECT_FLINCH_HIT,         80, PSYCHIC_TYPE,   90, 15,  20      ;ZEN_HEADBUTT
+	move EFFECT_FLINCH_HIT,         80, PSYCHIC_TYPE,  100, 20,  10      ;EXTRASENSORY
+	move EFFECT_NORMAL_HIT,         70, PSYCHIC_TYPE,  100, 20,   0      ;PSYCHO_CUT
 .IndirectEnd::

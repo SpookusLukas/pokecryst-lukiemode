@@ -9,4 +9,5 @@ CriticalHitMoves:
 	dw LEAF_BLADE
 	dw CROSS_POISON
 	dw DRILL_RUN
+	dw PSYCHO_CUT
 	dw -1

@@ -311,6 +311,9 @@
 	const AIR_SLASH    ; 12e
 	const BRAVE_BIRD   ; 12f
 	const DUALWINGBEAT ; 130
+	const ZEN_HEADBUTT ; 131
+	const EXTRASENSORY ; 132
+	const PSYCHO_CUT   ; 133
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

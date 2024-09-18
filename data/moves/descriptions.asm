@@ -309,6 +309,9 @@ MoveDescriptions1:
 	dw AirSlashDescription
 	dw BraveBirdDescription
 	dw DualWingbeatDescription
+	dw ZenHeadbuttDescription
+	dw ExtrasensoryDescription
+	dw PsychoCutDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1529,3 +1532,15 @@ BraveBirdDescription:
 DualWingbeatDescription: 
 	db   "An attack that"
 	next "uses both wings.@"
+
+ZenHeadbuttDescription: 
+	db   "An attack that may"
+	next "cause flinching.@"
+
+ExtrasensoryDescription: 
+	db   "An attack that may"
+	next "cause flinching.@"
+
+PsychoCutDescription:
+	db   "Has a high criti-"
+	next "cal hit ratio.@"
