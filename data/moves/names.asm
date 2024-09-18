@@ -317,4 +317,8 @@ MoveNames::
 	li "STONE EDGE"
 	li "ROCK POLISH"
 	li "ROCK BLAST"
+	li "SHADOW CLAW"
+	li "SHADOW SNEAK"
+	li "OMINOUS WIND"
+	li "PHANTOMFORCE"
 	assert_list_length NUM_ATTACKS

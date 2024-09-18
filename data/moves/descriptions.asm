@@ -322,6 +322,10 @@ MoveDescriptions1:
 	dw StoneEdgeDescription
 	dw RockPolishDescription
 	dw RockBlastDescription
+	dw ShadowClawDescription
+	dw ShadowSneakDescription
+	dw OminousWindDescription
+	dw PhantomForceDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1594,3 +1598,19 @@ RockPolishDescription:
 RockBlastDescription:
 	db   "Repeatedly strikes"
 	next "2-5 times.@"
+
+ShadowClawDescription: 
+	db   "Has a high criti-"
+	next "cal hit ratio.@"
+
+ShadowSneakDescription: 
+	db   "Lets the user get"
+	next "in the first hit.@"
+
+OminousWindDescription: 
+	db   "An attack that may"
+	next "raise all stats.@"
+
+PhantomForceDescription: 
+	db   "1st turn: Vanish"
+	next "2nd turn: Attack@"

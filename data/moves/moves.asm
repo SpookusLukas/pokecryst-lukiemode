@@ -336,4 +336,8 @@ Moves1:
 	move EFFECT_NORMAL_HIT,        100, ROCK,           80,  5,   0      ;STONE_EDGE
 	move EFFECT_SPEED_UP_2,          0, ROCK,          100, 20,   0      ;ROCK_POLISH
 	move EFFECT_MULTI_HIT,          25, ROCK,           90, 10,   0      ;ROCK_BLAST
+	move EFFECT_NORMAL_HIT,         70, GHOST,         100, 15,   0      ;SHADOW_CLAW
+	move EFFECT_PRIORITY_HIT,       40, GHOST,         100, 30,   0      ;SHADOW_SNEAK
+	move EFFECT_ALL_UP_HIT,         60, GHOST,         100,  5,   0      ;OMINOUS_WIND
+	move EFFECT_FLY,                90, GHOST,         100, 10,   0      ;PHANTOMFORCE
 .IndirectEnd::

@@ -11,4 +11,5 @@ CriticalHitMoves:
 	dw DRILL_RUN
 	dw PSYCHO_CUT
 	dw STONE_EDGE
+	dw SHADOW_CLAW
 	dw -1

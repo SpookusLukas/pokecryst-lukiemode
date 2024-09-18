@@ -324,6 +324,10 @@
 	const STONE_EDGE   ; 13b
 	const ROCK_POLISH  ; 13c
 	const ROCK_BLAST   ; 13d
+	const SHADOW_CLAW  ; 13e
+	const SHADOW_SNEAK ; 13f
+	const OMINOUS_WIND ; 140
+	const PHANTOMFORCE ; 141
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff
