@@ -339,6 +339,7 @@ MoveDescriptions1:
 	dw IronHeadDescription
 	dw BulletPunchDescription
 	dw SmartStrikeDescription
+	dw VoltTackleDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1679,3 +1680,7 @@ BulletPunchDescription:
 SmartStrikeDescription:
 	db   "An attack that"
 	next "never misses.@"
+
+VoltTackleDescription: 
+	db   "Can PRZ target,"
+	next "but hurts user.@"

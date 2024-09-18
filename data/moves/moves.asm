@@ -353,4 +353,5 @@ Moves1:
 	move EFFECT_FLINCH_HIT,         80, STEEL,         100, 15,  30      ;IRON_HEAD
 	move EFFECT_PRIORITY_HIT,       40, STEEL,         100, 30,   0      ;BULLET_PUNCH
 	move EFFECT_ALWAYS_HIT,         70, STEEL,         100, 10,   0      ;SMART_STRIKE
+	move EFFECT_VOLT_TACKLE,       120, ELECTRIC,      100, 15,  10      ;VOLT_TACKLE
 .IndirectEnd::

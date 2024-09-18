@@ -334,4 +334,5 @@ MoveNames::
 	li "IRON HEAD"
 	li "BULLET PUNCH"
 	li "SMART STRIKE"
+	li "VOLT TACKLE"
 	assert_list_length NUM_ATTACKS

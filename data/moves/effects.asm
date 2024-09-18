@@ -2259,3 +2259,26 @@ Hail:
 	doturn
 	starthail
 	endmove
+
+VoltTackle:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	effectchance
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	recoil
+	checkfaint
+	buildopponentrage
+	kingsrock
+	paralyzetarget
+	endmove
