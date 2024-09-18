@@ -303,6 +303,10 @@
 	const POISON_JAB   ; 126
 	const CROSS_POISON ; 127
 	const GUNK_SHOT    ; 128
+	const BULLDOZE     ; 129
+	const EARTH_POWER  ; 12a
+	const MUD_BOMB     ; 12b
+	const DRILL_RUN    ; 12c
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

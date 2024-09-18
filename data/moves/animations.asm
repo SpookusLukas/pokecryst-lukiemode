@@ -326,6 +326,10 @@ BattleAnimations::
 	dw BattleAnim_PoisonJab
 	dw BattleAnim_CrossPoison
 	dw BattleAnim_GunkShot
+	dw BattleAnim_Bulldoze
+	dw BattleAnim_EarthPower
+	dw BattleAnim_MudBomb
+	dw BattleAnim_DrillRun
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -803,6 +807,10 @@ BattleAnim_FocusBlast:
 BattleAnim_PoisonJab:
 BattleAnim_CrossPoison:
 BattleAnim_GunkShot:
+BattleAnim_Bulldoze:
+BattleAnim_EarthPower:
+BattleAnim_MudBomb:
+BattleAnim_DrillRun:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0

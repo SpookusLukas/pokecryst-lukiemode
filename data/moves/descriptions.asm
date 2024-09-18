@@ -301,6 +301,10 @@ MoveDescriptions1:
 	dw PoisonJabDescription
 	dw CrossPoisonDescription
 	dw GunkShotDescription
+	dw BulldozeDescription
+	dw EarthPowerDescription
+	dw MudBombDescription
+	dw DrillRunDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1489,3 +1493,19 @@ CrossPoisonDescription:
 GunkShotDescription: 
 	db   "A gross blob with"
 	next "a chance to PSN.@"
+
+BulldozeDescription: 
+	db   "An attack that"
+	next "lowers SPEED.@"
+
+EarthPowerDescription: 
+	db   "An attack that may"
+	next "lower SPCL.ATK.@"
+
+MudBombDescription: 
+	db   "An attack that may"
+	next "reduce accuracy.@"
+
+DrillRunDescription: 
+	db   "Has a high criti-"
+	next "cal hit ratio.@"

@@ -8,4 +8,5 @@ CriticalHitMoves:
 	dw CROSS_CHOP
 	dw LEAF_BLADE
 	dw CROSS_POISON
+	dw DRILL_RUN
 	dw -1

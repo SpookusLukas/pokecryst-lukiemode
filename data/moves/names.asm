@@ -296,4 +296,8 @@ MoveNames::
 	li "POISON JAB"
 	li "CROSS POISON"
 	li "GUNK SHOT"
+	li "BULLDZOE"
+	li "EARTH POWER"
+	li "MUD BOMB"
+	li "DRILL RUN"
 	assert_list_length NUM_ATTACKS

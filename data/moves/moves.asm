@@ -315,4 +315,8 @@ Moves1:
 	move EFFECT_POISON_HIT,         80, POISON,        100, 20,  30      ;POISON_JAB
 	move EFFECT_POISON_HIT,         70, POISON,        100, 20,  10      ;CROSS_POISON
 	move EFFECT_POISON_HIT,        120, POISON,         80,  5,  30      ;GUNK_SHOT
+	move EFFECT_SPEED_DOWN_HIT,     60, GROUND,        100, 20, 100      ;BULLDOZE
+	move EFFECT_SP_DEF_DOWN_HIT,    90, GROUND,        100, 10,  10      ;EARTH_POWER
+	move EFFECT_ACCURACY_DOWN_HIT,  65, GROUND,         85, 10,  30      ;MUD_BOMB
+	move EFFECT_NORMAL_HIT,         80, GROUND,         95, 10,   0      ;DRILL_RUN
 .IndirectEnd::
