@@ -283,6 +283,7 @@ MoveDescriptions1:
 	dw TripleAxelDescription
 	dw IceShardDescription
 	dw IcicleCrashDescription
+	dw HailDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1399,3 +1400,7 @@ IceShardDescription:
 IcicleCrashDescription:
 	db   "An attack that may"
 	next "cause flinching.@"
+
+HailDescription:
+	db   "Inflicts damage"
+	next "every turn.@"

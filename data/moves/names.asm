@@ -278,4 +278,5 @@ MoveNames::
 	li "TRIPLE AXEL"
 	li "ICE SHARD"
 	li "ICICLE CRASH"
+	li "HAIL"
 	assert_list_length NUM_ATTACKS

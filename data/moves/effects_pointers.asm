@@ -166,4 +166,6 @@ MoveEffectsPointers:
 	dw SpeedUpHit
 	dw SpecialAttackUpHit
 	dw SpecialDefenseUpHit
+	dw FreezeHit ; for blizzard
+	dw Hail
 	assert_table_length NUM_MOVE_EFFECTS

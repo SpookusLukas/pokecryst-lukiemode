@@ -285,6 +285,7 @@
 	const TRIPLE_AXEL  ; 114
 	const ICE_SHARD    ; 115
 	const ICICLE_CRASH ; 116
+	const HAIL         ; 117
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff
@@ -295,6 +296,7 @@ DEF NUM_ATTACKS EQU const_value - 1
 	const ANIM_SWEET_SCENT_2     ; fc
 ; Animations with negative IDs will play even when animations are disabled
 	const_def -1, -1
+	const ANIM_IN_HAIL
 	const ANIM_HIT_CONFUSION     ;  -1 (ffff)
 	const ANIM_SHAKE             ;  -2 (fffe)
 	const ANIM_WOBBLE            ;  -3 (fffd)

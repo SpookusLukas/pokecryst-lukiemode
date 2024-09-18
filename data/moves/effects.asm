@@ -2252,3 +2252,10 @@ SpecialDefenseUpHit:
 	checkfaint
 	buildopponentrage
 	endmove
+
+Hail:
+	checkobedience
+	usedmovetext
+	doturn
+	starthail
+	endmove
