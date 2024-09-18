@@ -298,4 +298,9 @@ Moves1:
 	move EFFECT_PRIORITY_HIT,       40, ICE,           100, 30,   0      ;ICE_SHARD
 	move EFFECT_FLINCH_HIT,         85, ICE,            90, 10,  30      ;ICICLE_CRASH
 	move EFFECT_HAIL,                0, ICE,           100, 10,   0      ;HAIL
+	move EFFECT_FLY,                80, WATER,         100, 10,   0      ;DIVE
+	move EFFECT_NORMAL_HIT,         90, WATER,          90, 10,   0      ;AQUA_TAIL
+	move EFFECT_PRIORITY_HIT,       40, WATER,         100, 20,   0      ;AQUA_JET
+	move EFFECT_CONFUSE_HIT,        60, WATER,         100, 20,  20      ;WATER_PULSE
+	move EFFECT_DEFENSE_DOWN_HIT,   85, WATER,         100, 10,  20      ;LIQUIDATION
 .IndirectEnd::

@@ -286,6 +286,11 @@
 	const ICE_SHARD    ; 115
 	const ICICLE_CRASH ; 116
 	const HAIL         ; 117
+	const DIVE         ; 118
+	const AQUA_TAIL    ; 119
+	const AQUA_JET     ; 11a
+	const WATER_PULSE  ; 11b
+	const LIQUIDATION  ; 11c
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

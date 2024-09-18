@@ -280,6 +280,7 @@ BattleAnimations::
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
+	;;;;; NEW MOVES START HERE
 	dw BattleAnim_DazzleGleam
 	dw BattleAnim_FairyWind
 	dw BattleAnim_Moonblast
@@ -308,6 +309,11 @@ BattleAnimations::
 	dw BattleAnim_IceShard
 	dw BattleAnim_IcicleCrash
 	dw BattleAnim_Hail
+	dw BattleAnim_Dive
+	dw BattleAnim_AquaTail
+	dw BattleAnim_AquaJet
+	dw BattleAnim_WaterPulse
+	dw BattleAnim_Liquidation
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -768,6 +774,11 @@ BattleAnim_ChargeBeam:
 BattleAnim_TripleAxel:
 BattleAnim_IceShard:
 BattleAnim_IcicleCrash:
+BattleAnim_Dive:
+BattleAnim_AquaTail:
+BattleAnim_AquaJet:
+BattleAnim_WaterPulse:
+BattleAnim_Liquidation:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0

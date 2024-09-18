@@ -279,4 +279,9 @@ MoveNames::
 	li "ICE SHARD"
 	li "ICICLE CRASH"
 	li "HAIL"
+	li "DIVE"
+	li "AQUA TAIL"
+	li "AQUA JET"
+	li "WATER PULSE"
+	li "LIQUIDATION"
 	assert_list_length NUM_ATTACKS

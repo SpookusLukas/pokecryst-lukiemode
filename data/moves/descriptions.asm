@@ -284,6 +284,11 @@ MoveDescriptions1:
 	dw IceShardDescription
 	dw IcicleCrashDescription
 	dw HailDescription
+	dw DiveDescription
+	dw AquaTailDescription
+	dw AquaJetDescription
+	dw WaterPulseDescription
+	dw LiquidationDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1404,3 +1409,23 @@ IcicleCrashDescription:
 HailDescription:
 	db   "Inflicts damage"
 	next "every turn.@"
+
+DiveDescription: 
+	db   "1st turn: Dive"
+	next "2nd turn: Attack@"
+
+AquaTailDescription: 
+	db   "Strikes with a"
+	next "watery tail.@"
+
+AquaJetDescription: 
+	db   "Lets the user get"
+	next "in the first hit.@"
+
+WaterPulseDescription: 
+	db   "Uneven water that"
+	next "may confuse foe.@"
+
+LiquidationDescription:
+	db   "An attack that may"
+	next "lower DEFENSE.@"
