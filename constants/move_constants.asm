@@ -297,6 +297,9 @@
 	const BULLET_SEED  ; 120
 	const MAGICAL_LEAF ; 121
 	const AROMATHERAPY ; 122
+	const AURA_SPHERE  ; 123
+	const DRAIN_PUNCH  ; 124
+	const FOCUS_BLAST  ; 125
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

@@ -309,4 +309,7 @@ Moves1:
 	move EFFECT_MULTI_HIT,          25, GRASS,         100, 30,   0      ;BULLET_SEED
 	move EFFECT_ALWAYS_HIT,         60, GRASS,         100, 20,   0      ;MAGICAL_LEAF
 	move EFFECT_HEAL_BELL,           0, GRASS,         100,  5,   0      ;AROMATHERAPY
+	move EFFECT_ALWAYS_HIT,         80, FIGHTING,      100, 20,   0      ;AURA_SPHERE
+	move EFFECT_LEECH_HIT,          75, FIGHTING,      100, 10,   0      ;DRAIN_PUNCH
+	move EFFECT_SP_DEF_DOWN_HIT,   120, FIGHTING,       70,  5,  10      ;FOCUS_BLAST
 .IndirectEnd::

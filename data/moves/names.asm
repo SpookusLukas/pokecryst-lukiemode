@@ -290,4 +290,7 @@ MoveNames::
 	li "BULLET SEED"
 	li "MAGICAL LEAF"
 	li "AROMATHERAPY"
+	li "AURA SPHERE"
+	li "DRAIN PUNCH"
+	li "FOCUS BLAST"
 	assert_list_length NUM_ATTACKS

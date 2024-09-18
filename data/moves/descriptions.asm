@@ -295,6 +295,9 @@ MoveDescriptions1:
 	dw BulletSeedDescription
 	dw MagicalLeafDescription
 	dw AromatherapyDescription
+	dw AuraSphereDescription
+	dw DrainPunchDescription
+	dw FocusBlastDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1459,3 +1462,15 @@ MagicalLeafDescription:
 AromatherapyDescription:
 	db   "Eliminates all"
 	next "status problems.@"
+
+AuraSphereDescription: 
+	db   "An attack that"
+	next "never misses.@"
+
+DrainPunchDescription: 
+	db   "Steals 1/2 of the"
+	next "damage inflicted.@"
+
+FocusBlastDescription: 
+	db   "An attack that may"
+	next "lower SPCL.ATK.@"
