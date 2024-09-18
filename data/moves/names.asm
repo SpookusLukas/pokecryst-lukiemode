@@ -293,4 +293,7 @@ MoveNames::
 	li "AURA SPHERE"
 	li "DRAIN PUNCH"
 	li "FOCUS BLAST"
+	li "POISON JAB"
+	li "CROSS POISON"
+	li "GUNK SHOT"
 	assert_list_length NUM_ATTACKS

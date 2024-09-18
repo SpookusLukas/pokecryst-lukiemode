@@ -298,6 +298,9 @@ MoveDescriptions1:
 	dw AuraSphereDescription
 	dw DrainPunchDescription
 	dw FocusBlastDescription
+	dw PoisonJabDescription
+	dw CrossPoisonDescription
+	dw GunkShotDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1474,3 +1477,15 @@ DrainPunchDescription:
 FocusBlastDescription: 
 	db   "An attack that may"
 	next "lower SPCL.ATK.@"
+
+PoisonJabDescription: 
+	db   "A strike with a"
+	next "chance to PSN.@"
+
+CrossPoisonDescription: 
+	db   "Has a high criti-"
+	next "cal hit ratio.@"
+
+GunkShotDescription: 
+	db   "A gross blob with"
+	next "a chance to PSN.@"

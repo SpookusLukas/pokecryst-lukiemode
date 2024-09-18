@@ -323,6 +323,9 @@ BattleAnimations::
 	dw BattleAnim_AuraSphere
 	dw BattleAnim_DrainPunch
 	dw BattleAnim_FocusBlast
+	dw BattleAnim_PoisonJab
+	dw BattleAnim_CrossPoison
+	dw BattleAnim_GunkShot
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -797,6 +800,9 @@ BattleAnim_Aromatherapy:
 BattleAnim_AuraSphere:
 BattleAnim_DrainPunch:
 BattleAnim_FocusBlast:
+BattleAnim_PoisonJab:
+BattleAnim_CrossPoison:
+BattleAnim_GunkShot:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0

@@ -7,4 +7,5 @@ CriticalHitMoves:
 	dw AEROBLAST
 	dw CROSS_CHOP
 	dw LEAF_BLADE
+	dw CROSS_POISON
 	dw -1

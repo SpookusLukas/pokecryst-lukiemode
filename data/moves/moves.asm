@@ -312,4 +312,7 @@ Moves1:
 	move EFFECT_ALWAYS_HIT,         80, FIGHTING,      100, 20,   0      ;AURA_SPHERE
 	move EFFECT_LEECH_HIT,          75, FIGHTING,      100, 10,   0      ;DRAIN_PUNCH
 	move EFFECT_SP_DEF_DOWN_HIT,   120, FIGHTING,       70,  5,  10      ;FOCUS_BLAST
+	move EFFECT_POISON_HIT,         80, POISON,        100, 20,  30      ;POISON_JAB
+	move EFFECT_POISON_HIT,         70, POISON,        100, 20,  10      ;CROSS_POISON
+	move EFFECT_POISON_HIT,        120, POISON,         80,  5,  30      ;GUNK_SHOT
 .IndirectEnd::
