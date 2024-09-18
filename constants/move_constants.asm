@@ -291,6 +291,12 @@
 	const AQUA_JET     ; 11a
 	const WATER_PULSE  ; 11b
 	const LIQUIDATION  ; 11c
+	const ENERGY_BALL  ; 11d
+	const LEAF_BLADE   ; 11e
+	const SEED_BOMB    ; 11f
+	const BULLET_SEED  ; 120
+	const MAGICAL_LEAF ; 121
+	const AROMATHERAPY ; 122
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

@@ -303,4 +303,10 @@ Moves1:
 	move EFFECT_PRIORITY_HIT,       40, WATER,         100, 20,   0      ;AQUA_JET
 	move EFFECT_CONFUSE_HIT,        60, WATER,         100, 20,  20      ;WATER_PULSE
 	move EFFECT_DEFENSE_DOWN_HIT,   85, WATER,         100, 10,  20      ;LIQUIDATION
+	move EFFECT_SP_DEF_DOWN_HIT,    90, GRASS,         100, 10,  10      ;ENERGY_BALL
+	move EFFECT_NORMAL_HIT,         90, GRASS,         100, 15,   0      ;LEAF_BLADE
+	move EFFECT_NORMAL_HIT,         80, GRASS,         100, 15,   0      ;SEED_BOMB
+	move EFFECT_MULTI_HIT,          25, GRASS,         100, 30,   0      ;BULLET_SEED
+	move EFFECT_ALWAYS_HIT,         60, GRASS,         100, 20,   0      ;MAGICAL_LEAF
+	move EFFECT_HEAL_BELL,           0, GRASS,         100,  5,   0      ;AROMATHERAPY
 .IndirectEnd::

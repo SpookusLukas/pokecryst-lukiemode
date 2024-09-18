@@ -314,6 +314,12 @@ BattleAnimations::
 	dw BattleAnim_AquaJet
 	dw BattleAnim_WaterPulse
 	dw BattleAnim_Liquidation
+	dw BattleAnim_EnergyBall
+	dw BattleAnim_LeafBlade
+	dw BattleAnim_SeedBomb
+	dw BattleAnim_BulletSeed
+	dw BattleAnim_MagicalLeaf
+	dw BattleAnim_Aromatherapy
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -779,6 +785,12 @@ BattleAnim_AquaTail:
 BattleAnim_AquaJet:
 BattleAnim_WaterPulse:
 BattleAnim_Liquidation:
+BattleAnim_EnergyBall:
+BattleAnim_LeafBlade:
+BattleAnim_SeedBomb:
+BattleAnim_BulletSeed:
+BattleAnim_MagicalLeaf:
+BattleAnim_Aromatherapy:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0

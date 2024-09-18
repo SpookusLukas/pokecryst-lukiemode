@@ -284,4 +284,10 @@ MoveNames::
 	li "AQUA JET"
 	li "WATER PULSE"
 	li "LIQUIDATION"
+	li "ENERGY BALL"
+	li "LEAF BLADE"
+	li "SEED BOMB"
+	li "BULLET SEED"
+	li "MAGICAL LEAF"
+	li "AROMATHERAPY"
 	assert_list_length NUM_ATTACKS

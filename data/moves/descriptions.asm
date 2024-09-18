@@ -289,6 +289,12 @@ MoveDescriptions1:
 	dw AquaJetDescription
 	dw WaterPulseDescription
 	dw LiquidationDescription
+	dw EnergyBallDescription
+	dw LeafBladeDescription
+	dw SeedBombDescription
+	dw BulletSeedDescription
+	dw MagicalLeafDescription
+	dw AromatherapyDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1429,3 +1435,27 @@ WaterPulseDescription:
 LiquidationDescription:
 	db   "An attack that may"
 	next "lower DEFENSE.@"
+
+EnergyBallDescription: 
+	db   "An attack that may"
+	next "lower SPCL.ATK.@"
+
+LeafBladeDescription: 
+	db   "Has a high criti-"
+	next "cal hit ratio.@"
+
+SeedBombDescription: 
+	db   "Attacks with a"
+	next "bursting seed.@"
+
+BulletSeedDescription: 
+	db   "Repeatedly strikes"
+	next "2-5 times.@"
+
+MagicalLeafDescription: 
+	db   "An attack that"
+	next "never misses.@"
+
+AromatherapyDescription:
+	db   "Eliminates all"
+	next "status problems.@"
