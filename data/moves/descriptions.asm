@@ -312,6 +312,11 @@ MoveDescriptions1:
 	dw ZenHeadbuttDescription
 	dw ExtrasensoryDescription
 	dw PsychoCutDescription
+	dw XScissorDescription
+	dw LungeDescription
+	dw PounceDescription
+	dw BugBuzzDescription
+	dw SignalBeamDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1544,3 +1549,23 @@ ExtrasensoryDescription:
 PsychoCutDescription:
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
+
+XScissorDescription: 
+	db   "Slashes in an"
+	next "X formation.@"
+
+LungeDescription: 
+	db   "A strike that"
+	next "lowers ATTACK.@"
+
+PounceDescription: 
+	db   "Attack that will"
+	next "lower foe's speed.@"
+
+BugBuzzDescription: 
+	db   "An attack that may"
+	next "lower SPCL.ATK.@"
+
+SignalBeamDescription: 
+	db   "A weird light that"
+	next "may confuse.@"

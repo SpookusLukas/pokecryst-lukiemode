@@ -307,4 +307,9 @@ MoveNames::
 	li "ZEN HEADBUTT"
 	li "EXTRASENSORY"
 	li "PSYCHO CUT"
+	li "X-SCISSOR"
+	li "LUNGE"
+	li "POUNCE"
+	li "BUG BUZZ"
+	li "SIGNAL BEAM"
 	assert_list_length NUM_ATTACKS

@@ -314,6 +314,11 @@
 	const ZEN_HEADBUTT ; 131
 	const EXTRASENSORY ; 132
 	const PSYCHO_CUT   ; 133
+	const X_SCISSOR    ; 134
+	const LUNGE        ; 135
+	const POUNCE       ; 136
+	const BUG_BUZZ     ; 137
+	const SIGNAL_BEAM  ; 138
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

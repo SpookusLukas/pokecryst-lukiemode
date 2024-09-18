@@ -326,4 +326,9 @@ Moves1:
 	move EFFECT_FLINCH_HIT,         80, PSYCHIC_TYPE,   90, 15,  20      ;ZEN_HEADBUTT
 	move EFFECT_FLINCH_HIT,         80, PSYCHIC_TYPE,  100, 20,  10      ;EXTRASENSORY
 	move EFFECT_NORMAL_HIT,         70, PSYCHIC_TYPE,  100, 20,   0      ;PSYCHO_CUT
+	move EFFECT_NORMAL_HIT,         80, BUG,           100, 15,   0      ;X_SCISSOR
+	move EFFECT_ATTACK_DOWN_HIT,    80, BUG,           100, 15, 100      ;LUNGE
+	move EFFECT_SPEED_DOWN_HIT,     50, BUG,           100, 20, 100      ;POUNCE
+	move EFFECT_SP_DEF_DOWN_HIT,    90, BUG,           100, 10,  10      ;BUG_BUZZ
+	move EFFECT_CONFUSE_HIT,        75, BUG,           100, 15,  10      ;SIGNAL_BEAM
 .IndirectEnd::
