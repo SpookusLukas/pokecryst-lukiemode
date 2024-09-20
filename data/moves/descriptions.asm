@@ -340,6 +340,7 @@ MoveDescriptions1:
 	dw BulletPunchDescription
 	dw SmartStrikeDescription
 	dw VoltTackleDescription
+	dw ScaldDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1684,3 +1685,7 @@ SmartStrikeDescription:
 VoltTackleDescription: 
 	db   "Can PRZ target,"
 	next "but hurts user.@"
+
+ScaldDescription: 
+	db   "Hot water that"
+	next "can BURN target.@"

@@ -195,10 +195,10 @@ TyphlosionEvosAttacks:
 TotodileEvosAttacks:
 	dbbw EVOLVE_LEVEL, 18, CROCONAW
 	db 0 ; no more evolutions
-	dbw 1, AERIAL_ACE
-	dbw 1, AIR_SLASH
-	dbw 1, BRAVE_BIRD
-	dbw 1, DUALWINGBEAT
+	dbw 1, SCRATCH
+	dbw 1, LEER
+	dbw 1, DIVE
+	dbw 1, PHANTOMFORCE
 	dbw 7, RAGE
 	dbw 13, WATER_GUN
 	dbw 20, BITE

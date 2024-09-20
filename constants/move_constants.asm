@@ -342,6 +342,7 @@
 	const BULLET_PUNCH ; 14d
 	const SMART_STRIKE ; 14e
 	const VOLT_TACKLE  ; 14f
+	const SCALD        ; 150
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

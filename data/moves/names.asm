@@ -335,4 +335,5 @@ MoveNames::
 	li "BULLET PUNCH"
 	li "SMART STRIKE"
 	li "VOLT TACKLE"
+	li "SCALD"
 	assert_list_length NUM_ATTACKS
