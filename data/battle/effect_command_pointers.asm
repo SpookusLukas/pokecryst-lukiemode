@@ -185,4 +185,6 @@ BattleCommandPointers:
 	dw BattleCommand_CalmMind
 	dw BattleCommand_CosmicPower
 	dw BattleCommand_DragonDance
+	dw BattleCommand_Hex
+	dw BattleCommand_Venoshock
 	assert_table_length NUM_EFFECT_COMMANDS

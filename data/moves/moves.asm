@@ -359,4 +359,6 @@ Moves1:
 	move EFFECT_CALM_MIND,           0, PSYCHIC_TYPE,  100, 20,   0      ;CALM_MIND
 	move EFFECT_COSMIC_POWER,        0, PSYCHIC_TYPE,  100, 20,   0      ;COSMIC_POWER
 	move EFFECT_DRAGON_DANCE,        0, DRAGON,        100, 20,   0      ;DRAGON_DANCE
-.IndirectEnd::
+	move EFFECT_HEX,                65, GHOST,         100, 10,   0      ;HEX
+	move EFFECT_VENOSHOCK,          65, POISON,        100, 10,   0      ;VENOSHOCK
+	.IndirectEnd::

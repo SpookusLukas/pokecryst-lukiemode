@@ -340,4 +340,6 @@ MoveNames::
 	li "CALM MIND"
 	li "COSMIC POWER"
 	li "DRAGON DANCE"
+	li "HEX"
+	li "VENOSHOCK"
 	assert_list_length NUM_ATTACKS

@@ -173,4 +173,6 @@ MoveEffectsPointers:
 	dw CalmMind
 	dw CosmicPower
 	dw DragonDance
+	dw Hex
+	dw Venoshock
 	assert_table_length NUM_MOVE_EFFECTS

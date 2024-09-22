@@ -346,6 +346,8 @@ MoveDescriptions1:
 	dw CalmMindDescription
 	dw CosmicPowerDescription
 	dw DragonDanceDescription
+	dw HexDescription
+	dw VenoshockDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1710,3 +1712,11 @@ CosmicPowerDescription:
 DragonDanceDescription: 
 	db   "Raises ATK and"
 	next "SPEED at once.@"
+
+HexDescription: 
+	db   "Deals 2x damage if"
+	next "foe has status.@"
+
+VenoshockDescription: 
+	db   "Deals 2x damage if"
+	next "foe is poisoned.@"
