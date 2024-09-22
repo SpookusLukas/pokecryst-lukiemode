@@ -345,4 +345,5 @@ MoveNames::
 	li "FREEZE-DRY"
 	li "OVERHEAT"
 	li "DRACO METEOR"
+	li "CLOSE COMBAT"
 	assert_list_length NUM_ATTACKS

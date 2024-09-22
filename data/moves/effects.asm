@@ -2399,3 +2399,25 @@ Overheat:
 	buildopponentrage
 	kingsrock
 	endmove
+
+CloseCombat:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	effectchance
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	closecombat
+	checkfaint
+	buildopponentrage
+	kingsrock
+	endmove

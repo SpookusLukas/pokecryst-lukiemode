@@ -189,4 +189,5 @@ BattleCommandPointers:
 	dw BattleCommand_Venoshock
 	dw BattleCommand_FreezeDry
 	dw BattleCommand_Overheat
+	dw BattleCommand_CloseCombat
 	assert_table_length NUM_EFFECT_COMMANDS

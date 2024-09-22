@@ -351,6 +351,7 @@ MoveDescriptions1:
 	dw FreezeDryDescription
 	dw OverheatDescription
 	dw DracoMeteorDescription
+	dw CloseCombatDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1735,3 +1736,7 @@ OverheatDescription:
 DracoMeteorDescription: 
 	db   "Strong but lowers"
 	next "user's SPCL.ATK.@"
+
+CloseCombatDescription:
+	db   "Strong but lowers"
+	next "user's defenses."

@@ -177,4 +177,5 @@ MoveEffectsPointers:
 	dw Venoshock
 	dw FreezeDry
 	dw Overheat
+	dw CloseCombat
 	assert_table_length NUM_MOVE_EFFECTS

@@ -375,6 +375,7 @@ BattleAnimations::
 	dw BattleAnim_FreezeDry
 	dw BattleAnim_Overheat
 	dw BattleAnim_DracoMeteor
+	dw BattleAnim_CloseCombat
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -901,6 +902,7 @@ BattleAnim_Venoshock:
 BattleAnim_FreezeDry:
 BattleAnim_Overheat:
 BattleAnim_DracoMeteor:
+BattleAnim_CloseCombat:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0

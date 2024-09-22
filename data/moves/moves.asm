@@ -364,4 +364,5 @@ Moves1:
 	move EFFECT_FREEZE_DRY,         70, ICE,           100, 20,  10      ;FREEZE_DRY
 	move EFFECT_OVERHEAT,          130, FIRE,           90,  5,   0      ;OVERHEAT
 	move EFFECT_OVERHEAT,          130, DRAGON,         90,  5,   0      ;DRACO_METEOR
+	move EFFECT_CLOSE_COMBAT,      120, FIGHTING,      100,  5,   0      ;CLOSE_COMBAT
 	.IndirectEnd::
