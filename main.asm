@@ -144,6 +144,9 @@ SECTION "Effect Commands", ROMX
 
 INCLUDE "engine/battle/effect_commands.asm"
 
+section "Effect Commands 2", romx
+
+INCLUDE "engine/battle/effect_commands2.asm"
 
 SECTION "Enemy Trainers", ROMX
 

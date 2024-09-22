@@ -169,4 +169,8 @@ MoveEffectsPointers:
 	dw FreezeHit ; for blizzard
 	dw Hail
 	dw VoltTackle
+	dw BulkUp
+	dw CalmMind
+	dw CosmicPower
+	dw DragonDance
 	assert_table_length NUM_MOVE_EFFECTS

@@ -366,6 +366,10 @@ BattleAnimations::
 	dw BattleAnim_SmartStrike
 	dw BattleAnim_VoltTackle
 	dw BattleAnim_Scald
+	dw BattleAnim_BulkUp
+	dw BattleAnim_CalmMind
+	dw BattleAnim_CosmicPower
+	dw BattleAnim_DragonDance
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -883,6 +887,10 @@ BattleAnim_BulletPunch:
 BattleAnim_SmartStrike:
 BattleAnim_VoltTackle:
 BattleAnim_Scald:
+BattleAnim_BulkUp:
+BattleAnim_CalmMind:
+BattleAnim_CosmicPower:
+BattleAnim_DragonDance:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0

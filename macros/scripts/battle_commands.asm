@@ -181,6 +181,10 @@ ENDM
 	command startloop               ; ae
 	command curl                    ; af
 	command starthail               ; b0
+	command bulkup                  ; b1
+	command calmmind                ; b2
+	command cosmicpower             ; b3
+	command dragondance             ; b4
 DEF NUM_EFFECT_COMMANDS EQU const_value - 1
 
 	const_def -1, -1

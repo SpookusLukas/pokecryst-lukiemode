@@ -355,4 +355,8 @@ Moves1:
 	move EFFECT_ALWAYS_HIT,         70, STEEL,         100, 10,   0      ;SMART_STRIKE
 	move EFFECT_VOLT_TACKLE,       120, ELECTRIC,      100, 15,  10      ;VOLT_TACKLE
 	move EFFECT_BURN_HIT,           80, WATER,         100, 15,  20      ;SCALD
+	move EFFECT_BULK_UP,             0, FIGHTING,      100, 20,   0      ;BULK_UP
+	move EFFECT_CALM_MIND,           0, PSYCHIC_TYPE,  100, 20,   0      ;CALM_MIND
+	move EFFECT_COSMIC_POWER,        0, PSYCHIC_TYPE,  100, 20,   0      ;COSMIC_POWER
+	move EFFECT_DRAGON_DANCE,        0, DRAGON,        100, 20,   0      ;DRAGON_DANCE
 .IndirectEnd::

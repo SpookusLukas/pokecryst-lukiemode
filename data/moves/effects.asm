@@ -2282,3 +2282,31 @@ VoltTackle:
 	kingsrock
 	paralyzetarget
 	endmove
+
+BulkUp:
+	checkobedience
+	usedmovetext
+	doturn
+	bulkup
+	endmove
+
+CalmMind:
+	checkobedience
+	usedmovetext
+	doturn
+	calmmind
+	endmove
+
+CosmicPower:
+	checkobedience
+	usedmovetext
+	doturn
+	cosmicpower
+	endmove
+
+DragonDance:
+	checkobedience
+	usedmovetext
+	doturn
+	dragondance
+	endmove

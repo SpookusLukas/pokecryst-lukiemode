@@ -336,4 +336,8 @@ MoveNames::
 	li "SMART STRIKE"
 	li "VOLT TACKLE"
 	li "SCALD"
+	li "BULK UP"
+	li "CALM MIND"
+	li "COSMIC POWER"
+	li "DRAGON DANCE"
 	assert_list_length NUM_ATTACKS

@@ -256,6 +256,7 @@ MoveDescriptions1:
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw BeatUpDescription
+	;;; NEW MOVES START HERE
 	dw DazzleGleamDescription
 	dw FairyWindDescription
 	dw MoonblastDescription
@@ -341,6 +342,10 @@ MoveDescriptions1:
 	dw SmartStrikeDescription
 	dw VoltTackleDescription
 	dw ScaldDescription
+	dw BulkUpDescription
+	dw CalmMindDescription
+	dw CosmicPowerDescription
+	dw DragonDanceDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1689,3 +1694,19 @@ VoltTackleDescription:
 ScaldDescription: 
 	db   "Hot water that"
 	next "can BURN target.@"
+
+BulkUpDescription: 
+	db   "Raises ATK and"
+	next "DEF at once.@"
+
+CalmMindDescription: 
+	db   "Raises SPCL.ATK"
+	next "and SPCL.DEF.@"
+
+CosmicPowerDescription: 
+	db   "Raises DEF and"
+	next "SPCL.DEF at once.@"
+
+DragonDanceDescription: 
+	db   "Raises ATK and"
+	next "SPEED at once.@"

@@ -343,6 +343,10 @@
 	const SMART_STRIKE ; 14e
 	const VOLT_TACKLE  ; 14f
 	const SCALD        ; 150
+	const BULK_UP      ; 151
+	const CALM_MIND    ; 152
+	const COSMIC_POWER ; 153
+	const DRAGON_DANCE ; 154
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

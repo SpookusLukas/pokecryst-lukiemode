@@ -198,7 +198,7 @@ TotodileEvosAttacks:
 	dbw 1, SCRATCH
 	dbw 1, LEER
 	dbw 1, DIVE
-	dbw 1, PHANTOMFORCE
+	dbw 1, BULK_UP
 	dbw 7, RAGE
 	dbw 13, WATER_GUN
 	dbw 20, BITE
