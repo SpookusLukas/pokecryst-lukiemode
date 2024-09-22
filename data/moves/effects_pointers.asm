@@ -175,4 +175,5 @@ MoveEffectsPointers:
 	dw DragonDance
 	dw Hex
 	dw Venoshock
+	dw FreezeDry
 	assert_table_length NUM_MOVE_EFFECTS

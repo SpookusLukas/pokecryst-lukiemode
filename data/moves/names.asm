@@ -342,4 +342,5 @@ MoveNames::
 	li "DRAGON DANCE"
 	li "HEX"
 	li "VENOSHOCK"
+	li "FREEZE-DRY"
 	assert_list_length NUM_ATTACKS

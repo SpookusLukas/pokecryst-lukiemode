@@ -348,6 +348,7 @@ MoveDescriptions1:
 	dw DragonDanceDescription
 	dw HexDescription
 	dw VenoshockDescription
+	dw FreezeDryDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1720,3 +1721,7 @@ HexDescription:
 VenoshockDescription: 
 	db   "Deals 2x damage if"
 	next "foe is poisoned.@"
+
+FreezeDryDescription: 
+	db   "Super effective on"
+	next "water types also.@"

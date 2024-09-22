@@ -372,6 +372,7 @@ BattleAnimations::
 	dw BattleAnim_DragonDance
 	dw BattleAnim_Hex
 	dw BattleAnim_Venoshock
+	dw BattleAnim_FreezeDry
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -895,6 +896,7 @@ BattleAnim_CosmicPower:
 BattleAnim_DragonDance:
 BattleAnim_Hex:
 BattleAnim_Venoshock:
+BattleAnim_FreezeDry:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0

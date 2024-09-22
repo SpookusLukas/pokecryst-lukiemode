@@ -361,4 +361,5 @@ Moves1:
 	move EFFECT_DRAGON_DANCE,        0, DRAGON,        100, 20,   0      ;DRAGON_DANCE
 	move EFFECT_HEX,                65, GHOST,         100, 10,   0      ;HEX
 	move EFFECT_VENOSHOCK,          65, POISON,        100, 10,   0      ;VENOSHOCK
+	move EFFECT_FREEZE_DRY,         70, ICE,           100, 20,  10      ;FREEZE_DRY
 	.IndirectEnd::

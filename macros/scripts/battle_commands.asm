@@ -187,6 +187,7 @@ ENDM
 	command dragondance             ; b4
 	command hex                     ; b5
 	command venoshock               ; b6
+	command freezedry               ; b7
 DEF NUM_EFFECT_COMMANDS EQU const_value - 1
 
 	const_def -1, -1
