@@ -7,3 +7,5 @@ INCLUDE "engine/battle/move_effects/hex.asm"
 INCLUDE "engine/battle/move_effects/venoshock.asm"
 
 INCLUDE "engine/battle/move_effects/freeze_dry.asm"
+
+INCLUDE "engine/battle/move_effects/overheat.asm"

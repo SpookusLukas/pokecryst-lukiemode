@@ -176,4 +176,5 @@ MoveEffectsPointers:
 	dw Hex
 	dw Venoshock
 	dw FreezeDry
+	dw Overheat
 	assert_table_length NUM_MOVE_EFFECTS

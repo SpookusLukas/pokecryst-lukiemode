@@ -350,6 +350,8 @@
 	const HEX          ; 155
 	const VENOSHOCK    ; 156
 	const FREEZE_DRY   ; 157
+	const OVERHEAT     ; 158
+	const DRACO_METEOR ; 159
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

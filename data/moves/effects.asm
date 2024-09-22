@@ -2375,3 +2375,27 @@ FreezeDry:
 	kingsrock
 	freezetarget
 	endmove
+
+
+Overheat:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	effectchance
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	defrost
+	overheat
+	checkfaint
+	buildopponentrage
+	kingsrock
+	endmove

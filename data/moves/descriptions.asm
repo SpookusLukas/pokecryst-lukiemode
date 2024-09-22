@@ -349,6 +349,8 @@ MoveDescriptions1:
 	dw HexDescription
 	dw VenoshockDescription
 	dw FreezeDryDescription
+	dw OverheatDescription
+	dw DracoMeteorDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1725,3 +1727,11 @@ VenoshockDescription:
 FreezeDryDescription: 
 	db   "Super effective on"
 	next "water types also.@"
+
+OverheatDescription: 
+	db   "Strong but lowers"
+	next "user's SPCL. ATK.@"
+
+DracoMeteorDescription: 
+	db   "Strong but lowers"
+	next "user's SPCL.ATK.@"

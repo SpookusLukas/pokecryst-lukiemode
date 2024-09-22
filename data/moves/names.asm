@@ -343,4 +343,6 @@ MoveNames::
 	li "HEX"
 	li "VENOSHOCK"
 	li "FREEZE-DRY"
+	li "OVERHEAT"
+	li "DRACO METEOR"
 	assert_list_length NUM_ATTACKS
