@@ -190,6 +190,7 @@ ENDM
 	command freezedry               ; b7
 	command overheat                ; b8
 	command closecombat             ; b9
+	command facade                  ; ba
 DEF NUM_EFFECT_COMMANDS EQU const_value - 1
 
 	const_def -1, -1

@@ -178,4 +178,5 @@ MoveEffectsPointers:
 	dw FreezeDry
 	dw Overheat
 	dw CloseCombat
+	dw Facade
 	assert_table_length NUM_MOVE_EFFECTS

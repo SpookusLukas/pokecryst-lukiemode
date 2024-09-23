@@ -10,3 +10,5 @@ INCLUDE "engine/battle/move_effects/freeze_dry.asm"
 
 INCLUDE "engine/battle/move_effects/overheat.asm"
 INCLUDE "engine/battle/move_effects/close_combat.asm"
+
+INCLUDE "engine/battle/move_effects/facade.asm"

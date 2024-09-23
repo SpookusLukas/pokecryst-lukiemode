@@ -365,4 +365,5 @@ Moves1:
 	move EFFECT_OVERHEAT,          130, FIRE,           90,  5,   0      ;OVERHEAT
 	move EFFECT_OVERHEAT,          130, DRAGON,         90,  5,   0      ;DRACO_METEOR
 	move EFFECT_CLOSE_COMBAT,      120, FIGHTING,      100,  5,   0      ;CLOSE_COMBAT
+	move EFFECT_FACADE,             70, NORMAL,        100, 20,   0      ;FACADE
 	.IndirectEnd::

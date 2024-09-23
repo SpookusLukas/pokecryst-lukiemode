@@ -352,6 +352,7 @@ MoveDescriptions1:
 	dw OverheatDescription
 	dw DracoMeteorDescription
 	dw CloseCombatDescription
+	dw FacadeDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1740,3 +1741,7 @@ DracoMeteorDescription:
 CloseCombatDescription:
 	db   "Strong but lowers"
 	next "user's defenses."
+
+FacadeDescription:
+	db   "2x damage when"
+	next "BRN PRZ or PSN.@"
