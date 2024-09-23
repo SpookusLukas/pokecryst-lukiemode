@@ -353,6 +353,7 @@ MoveDescriptions1:
 	dw DracoMeteorDescription
 	dw CloseCombatDescription
 	dw FacadeDescription
+	dw AcrobaticsDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1745,3 +1746,7 @@ CloseCombatDescription:
 FacadeDescription:
 	db   "2x damage when"
 	next "BRN PRZ or PSN.@"
+
+AcrobaticsDescription: 
+	db   "Does 2x damage w/"
+	next "no held item.@"

@@ -179,4 +179,5 @@ MoveEffectsPointers:
 	dw Overheat
 	dw CloseCombat
 	dw Facade
+	dw Acrobatics
 	assert_table_length NUM_MOVE_EFFECTS

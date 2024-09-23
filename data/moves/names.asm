@@ -347,4 +347,5 @@ MoveNames::
 	li "DRACO METEOR"
 	li "CLOSE COMBAT"
 	li "FACADE"
+	li "ACROBATICS"
 	assert_list_length NUM_ATTACKS

@@ -377,6 +377,7 @@ BattleAnimations::
 	dw BattleAnim_DracoMeteor
 	dw BattleAnim_CloseCombat
 	dw BattleAnim_Facade
+	dw BattleAnim_Acrobatics
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -905,6 +906,7 @@ BattleAnim_Overheat:
 BattleAnim_DracoMeteor:
 BattleAnim_CloseCombat:
 BattleAnim_Facade:
+BattleAnim_Acrobatics:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0

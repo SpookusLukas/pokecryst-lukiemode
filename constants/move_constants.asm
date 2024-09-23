@@ -354,6 +354,7 @@
 	const DRACO_METEOR ; 159
 	const CLOSE_COMBAT ; 15a
 	const FACADE       ; 15b
+	const ACROBATICS   ; 15c
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

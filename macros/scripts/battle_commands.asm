@@ -191,6 +191,7 @@ ENDM
 	command overheat                ; b8
 	command closecombat             ; b9
 	command facade                  ; ba
+	command acrobatics              ; bb
 DEF NUM_EFFECT_COMMANDS EQU const_value - 1
 
 	const_def -1, -1
