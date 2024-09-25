@@ -356,6 +356,7 @@ MoveDescriptions1:
 	dw AcrobaticsDescription
 	dw PoisonFangDescription
 	dw MudShotDescription
+	dw HurricaneDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1760,3 +1761,7 @@ PoisonFangDescription:
 MudShotDescription:
 	db   "An attack that"
 	next "lowers speed.@"
+
+HurricaneDescription:
+	db   "A gale that may"
+	next "confuse target.@"

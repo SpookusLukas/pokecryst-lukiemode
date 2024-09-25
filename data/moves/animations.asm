@@ -380,6 +380,7 @@ BattleAnimations::
 	dw BattleAnim_Acrobatics
 	dw BattleAnim_PoisonFang
 	dw BattleAnim_MudShot
+	dw BattleAnim_Hurricane
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -911,6 +912,7 @@ BattleAnim_Facade:
 BattleAnim_Acrobatics:
 BattleAnim_PoisonFang:
 BattleAnim_MudShot:
+BattleAnim_Hurricane:
 BattleAnim_MegaPunch:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $40, $2, $0

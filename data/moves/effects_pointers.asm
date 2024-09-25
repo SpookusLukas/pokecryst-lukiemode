@@ -182,4 +182,5 @@ MoveEffectsPointers:
 	dw Facade
 	dw Acrobatics
 	dw ToxicHit
+	dw Hurricane
 	assert_table_length NUM_MOVE_EFFECTS
