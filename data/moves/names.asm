@@ -348,4 +348,5 @@ MoveNames::
 	li "CLOSE COMBAT"
 	li "FACADE"
 	li "ACROBATICS"
+	li "POISON FANG"
 	assert_list_length NUM_ATTACKS

@@ -3787,6 +3787,52 @@ BattleCommand_PoisonTarget:
 	farcall UseHeldStatusHealingItem
 	ret
 
+BattleCommand_ToxicTarget:
+	call CheckSubstituteOpp
+	ret nz
+	ld a, BATTLE_VARS_STATUS_OPP
+	call GetBattleVarAddr
+	and a
+	ret nz
+	ld a, [wTypeModifier]
+	and $7f
+	ret z
+	call CheckIfTargetIsPoisonType
+	ret z
+	call GetOpponentItem
+	ld a, b
+	cp HELD_PREVENT_POISON
+	ret z
+	ld a, [wEffectFailed]
+	and a
+	ret nz
+	call SafeCheckSafeguard
+	ret nz
+
+    ld a, BATTLE_VARS_SUBSTATUS5_OPP
+    call GetBattleVarAddr
+    ldh a, [hBattleTurn]
+    and a
+    ld de, wEnemyToxicCount
+	jr z, .Okayama
+    ld de, wPlayerToxicCount
+
+.ok
+	set SUBSTATUS_TOXIC, [hl]
+	xor a
+	ld [de], a
+
+	call PoisonOpponent
+	ld de, ANIM_PSN
+	call PlayOpponentBattleAnim
+	call RefreshBattleHuds
+
+	ld hl, BadlyPoisonedText
+	call StdBattleTextbox
+
+	farcall UseHeldStatusHealingItem
+	ret
+
 BattleCommand_Poison:
 	ld hl, DoesntAffectText
 	ld a, [wTypeModifier]
@@ -6641,8 +6687,6 @@ BattleCommand_SkipSunCharge:
 	ret nz
 	ld b, charge_command
 	jp SkipToBattleCommand
-
-INCLUDE "engine/battle/move_effects/future_sight.asm"
 
 INCLUDE "engine/battle/move_effects/thunder.asm"
 

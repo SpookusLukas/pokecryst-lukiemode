@@ -367,4 +367,5 @@ Moves1:
 	move EFFECT_CLOSE_COMBAT,      120, FIGHTING,      100,  5,   0      ;CLOSE_COMBAT
 	move EFFECT_FACADE,             70, NORMAL,        100, 20,   0      ;FACADE
 	move EFFECT_ACROBATICS,         55, FLYING,        100, 15,   0      ;ACROBATICS
+	move EFFECT_TOXIC_HIT,          50, POISON,        100, 15,  50      ;POISON_FANG
 	.IndirectEnd::

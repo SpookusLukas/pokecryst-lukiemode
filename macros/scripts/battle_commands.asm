@@ -192,6 +192,7 @@ ENDM
 	command closecombat             ; b9
 	command facade                  ; ba
 	command acrobatics              ; bb
+	command toxictarget             ; bc
 DEF NUM_EFFECT_COMMANDS EQU const_value - 1
 
 	const_def -1, -1

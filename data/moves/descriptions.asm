@@ -354,6 +354,7 @@ MoveDescriptions1:
 	dw CloseCombatDescription
 	dw FacadeDescription
 	dw AcrobaticsDescription
+	dw PoisonFangDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1750,3 +1751,7 @@ FacadeDescription:
 AcrobaticsDescription: 
 	db   "Does 2x damage w/"
 	next "no held item.@"
+
+PoisonFangDescription:
+	db   "A bite that may"
+	next "badly poison foe.@"

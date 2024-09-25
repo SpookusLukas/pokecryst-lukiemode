@@ -158,6 +158,7 @@ MoveEffectsPointers:
 	dw BeatUp
 	dw Fly
 	dw DefenseCurl
+	;; new moves start here
 	dw BabyDollEyes
 	dw FireFang
 	dw ThunderFang
@@ -180,4 +181,5 @@ MoveEffectsPointers:
 	dw CloseCombat
 	dw Facade
 	dw Acrobatics
+	dw ToxicHit
 	assert_table_length NUM_MOVE_EFFECTS

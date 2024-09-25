@@ -1,3 +1,5 @@
+INCLUDE "engine/battle/move_effects/future_sight.asm"
+
 INCLUDE "engine/battle/move_effects/bulk_up.asm"
 INCLUDE "engine/battle/move_effects/calm_mind.asm"
 INCLUDE "engine/battle/move_effects/cosmic_power.asm"
