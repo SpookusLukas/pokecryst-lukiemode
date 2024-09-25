@@ -3814,7 +3814,7 @@ BattleCommand_ToxicTarget:
     ldh a, [hBattleTurn]
     and a
     ld de, wEnemyToxicCount
-	jr z, .Okayama
+	jr z, .ok
     ld de, wPlayerToxicCount
 
 .ok

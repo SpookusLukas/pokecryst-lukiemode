@@ -368,4 +368,5 @@ Moves1:
 	move EFFECT_FACADE,             70, NORMAL,        100, 20,   0      ;FACADE
 	move EFFECT_ACROBATICS,         55, FLYING,        100, 15,   0      ;ACROBATICS
 	move EFFECT_TOXIC_HIT,          50, POISON,        100, 15,  50      ;POISON_FANG
+	move EFFECT_SPEED_DOWN_HIT,     55, GROUND,         95, 15, 100      ;MUD_SHOT
 	.IndirectEnd::

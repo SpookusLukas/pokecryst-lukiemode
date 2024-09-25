@@ -356,6 +356,7 @@
 	const FACADE       ; 15b
 	const ACROBATICS   ; 15c
 	const POISON_FANG  ; 15d
+	const MUD_SHOT     ; 15e
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

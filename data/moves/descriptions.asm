@@ -355,6 +355,7 @@ MoveDescriptions1:
 	dw FacadeDescription
 	dw AcrobaticsDescription
 	dw PoisonFangDescription
+	dw MudShotDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1755,3 +1756,7 @@ AcrobaticsDescription:
 PoisonFangDescription:
 	db   "A bite that may"
 	next "badly poison foe.@"
+
+MudShotDescription:
+	db   "An attack that"
+	next "lowers speed.@"
