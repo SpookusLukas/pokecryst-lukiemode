@@ -358,6 +358,8 @@ MoveDescriptions1:
 	dw MudShotDescription
 	dw HurricaneDescription
 	dw WillOWispDescription
+	dw BlazeKickDescription
+	dw MuddyWaterDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1770,3 +1772,11 @@ HurricaneDescription:
 WillOWispDescription: 
 	db   "Eerie flare that"
 	next "burns the target.@"
+
+BlazeKickDescription:
+	db   "May burn, high"
+	next "chance to crit.@"
+
+MuddyWaterDescription:
+	db   "An attack that may"
+	next "lowers accuracy.@"

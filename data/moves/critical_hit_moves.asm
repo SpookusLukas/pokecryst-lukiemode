@@ -13,4 +13,5 @@ CriticalHitMoves:
 	dw STONE_EDGE
 	dw SHADOW_CLAW
 	dw NIGHT_SLASH
+	dw BLAZE_KICK
 	dw -1

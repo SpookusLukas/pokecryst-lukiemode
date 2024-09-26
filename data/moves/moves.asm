@@ -371,4 +371,6 @@ Moves1:
 	move EFFECT_SPEED_DOWN_HIT,     55, GROUND,         95, 15, 100      ;MUD_SHOT
 	move EFFECT_HURRICANE,         110, FLYING,         70, 10,  30      ;HURRICANE
 	move EFFECT_BURN,                0, FIRE,           85, 15,   0      ;WILL_O_WISP
+	move EFFECT_BURN,               85, FIRE,           90, 10,  10      ;BLAZE_KICK
+	move EFFECT_ACCURACY_DOWN_HIT,  90, WATER,          85, 10,  30      ;MUDDY_WATER
 	.IndirectEnd::

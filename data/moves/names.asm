@@ -352,4 +352,6 @@ MoveNames::
 	li "MUD SHOT"
 	li "HURRICANE"
 	li "WILL-O-WISP"
+	li "BLAZE KICK"
+	li "MUDDY WATER"
 	assert_list_length NUM_ATTACKS

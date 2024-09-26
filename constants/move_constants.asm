@@ -359,6 +359,8 @@
 	const MUD_SHOT     ; 15e
 	const HURRICANE    ; 15f
 	const WILL_O_WISP  ; 160
+	const BLAZE_KICK   ; 161
+	const MUDDY_WATER  ; 162
 DEF NUM_ATTACKS EQU const_value - 1
 
 ;;; TO ADD:
