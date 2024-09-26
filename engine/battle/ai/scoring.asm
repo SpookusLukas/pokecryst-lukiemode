@@ -388,6 +388,10 @@ AI_Smart_EffectHandlers:
 	dbw EFFECT_THUNDER,          AI_Smart_Thunder
 	dbw EFFECT_FLY,              AI_Smart_Fly
 	dbw EFFECT_HAIL,             AI_Smart_Hail
+	dbw EFFECT_HURRICANE,        AI_Smart_Thunder
+	dbw EFFECT_HEX,              AI_Smart_Hex
+	dbw EFFECT_VENOSHOCK,        AI_Smart_Venoshock
+	dbw EFFECT_BURN,             AI_Smart_Paralyze
 	db -1 ; end
 
 AI_Smart_Sleep:
@@ -1502,6 +1506,28 @@ AI_Smart_DefrostOpponent:
 
 	ld a, [wEnemyMonStatus]
 	and 1 << FRZ
+	ret z
+	dec [hl]
+	dec [hl]
+	dec [hl]
+	ret
+
+AI_Smart_Hex:
+; Greatly encourage this move if the player has a status condition.
+
+	ld a, [wBattleMonStatus]
+	and a
+	ret z
+	dec [hl]
+	dec [hl]
+	dec [hl]
+	ret
+
+AI_Smart_Venoshock:
+; Greatly encourage this move if the player is poisoned.
+
+	ld a, [wBattleMonStatus]
+	and 1 << PSN
 	ret z
 	dec [hl]
 	dec [hl]
