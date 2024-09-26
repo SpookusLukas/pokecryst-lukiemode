@@ -144,7 +144,7 @@ SECTION "Effect Commands", ROMX
 
 INCLUDE "engine/battle/effect_commands.asm"
 
-section "Effect Commands 2", romx
+section "Effect Commands 2", ROMX
 
 INCLUDE "engine/battle/effect_commands2.asm"
 

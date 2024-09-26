@@ -1779,4 +1779,4 @@ BlazeKickDescription:
 
 MuddyWaterDescription:
 	db   "An attack that may"
-	next "lowers accuracy.@"
+	next "lower accuracy.@"
