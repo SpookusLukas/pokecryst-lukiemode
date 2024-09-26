@@ -1125,3 +1125,8 @@ PeltedByHailText:
 	text "<USER>"
 	line "is pelted by HAIL!"
 	prompt
+
+AlreadyBurnedText:
+	text "<TARGET>'s"
+	line "already burned!"
+	prompt

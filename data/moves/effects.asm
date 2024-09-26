@@ -2508,3 +2508,13 @@ Hurricane:
 	buildopponentrage
 	confusetarget
 	endmove
+
+DoBurn:
+	checkobedience
+	usedmovetext
+	doturn
+	stab
+	checkhit
+	checksafeguard
+	burn
+	endmove

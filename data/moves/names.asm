@@ -351,4 +351,5 @@ MoveNames::
 	li "POISON FANG"
 	li "MUD SHOT"
 	li "HURRICANE"
+	li "WILL-O-WISP"
 	assert_list_length NUM_ATTACKS

@@ -370,4 +370,5 @@ Moves1:
 	move EFFECT_TOXIC_HIT,          50, POISON,        100, 15,  50      ;POISON_FANG
 	move EFFECT_SPEED_DOWN_HIT,     55, GROUND,         95, 15, 100      ;MUD_SHOT
 	move EFFECT_HURRICANE,         110, FLYING,         70, 10,  30      ;HURRICANE
+	move EFFECT_BURN,                0, FIRE,           85, 15,   0      ;WILL_O_WISP
 	.IndirectEnd::

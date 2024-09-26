@@ -357,6 +357,7 @@ MoveDescriptions1:
 	dw PoisonFangDescription
 	dw MudShotDescription
 	dw HurricaneDescription
+	dw WillOWispDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1765,3 +1766,7 @@ MudShotDescription:
 HurricaneDescription:
 	db   "A gale that may"
 	next "confuse target.@"
+
+WillOWispDescription: 
+	db   "Eerie flare that"
+	next "burns the target.@"

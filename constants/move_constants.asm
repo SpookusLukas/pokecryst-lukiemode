@@ -358,6 +358,7 @@
 	const POISON_FANG  ; 15d
 	const MUD_SHOT     ; 15e
 	const HURRICANE    ; 15f
+	const WILL_O_WISP  ; 160
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

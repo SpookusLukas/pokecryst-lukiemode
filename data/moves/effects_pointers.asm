@@ -183,4 +183,5 @@ MoveEffectsPointers:
 	dw Acrobatics
 	dw ToxicHit
 	dw Hurricane
+	dw DoBurn
 	assert_table_length NUM_MOVE_EFFECTS
