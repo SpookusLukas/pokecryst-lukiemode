@@ -216,7 +216,7 @@ BattleCommand_CheckTurn:
 
 .not_frozen
 
-	ld hl, wPlayerSubStatus3
+	ld hl, wPlayerSubStatus2
 	bit SUBSTATUS_FLINCHED, [hl]
 	jr z, .not_flinched
 
@@ -454,7 +454,7 @@ CheckEnemyTurn:
 
 .not_frozen
 
-	ld hl, wEnemySubStatus3
+	ld hl, wEnemySubStatus2
 	bit SUBSTATUS_FLINCHED, [hl]
 	jr z, .not_flinched
 
@@ -5591,7 +5591,7 @@ BattleCommand_FlinchTarget:
 	; fallthrough
 
 FlinchTarget:
-	ld a, BATTLE_VARS_SUBSTATUS3_OPP
+	ld a, BATTLE_VARS_SUBSTATUS2_OPP
 	call GetBattleVarAddr
 	set SUBSTATUS_FLINCHED, [hl]
 	jp EndRechargeOpp
@@ -5630,7 +5630,7 @@ BattleCommand_HeldFlinch:
 	cp c
 	ret nc
 	call EndRechargeOpp
-	ld a, BATTLE_VARS_SUBSTATUS3_OPP
+	ld a, BATTLE_VARS_SUBSTATUS2_OPP
 	call GetBattleVarAddr
 	set SUBSTATUS_FLINCHED, [hl]
 	ret

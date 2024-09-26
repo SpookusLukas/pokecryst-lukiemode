@@ -583,9 +583,9 @@ CheckPlayerLockedIn:
 	and 1 << SUBSTATUS_RECHARGE
 	jp nz, .quit
 
-	ld hl, wEnemySubStatus3
+	ld hl, wEnemySubStatus2
 	res SUBSTATUS_FLINCHED, [hl]
-	ld hl, wPlayerSubStatus3
+	ld hl, wPlayerSubStatus2
 	res SUBSTATUS_FLINCHED, [hl]
 
 	ld a, [hl]

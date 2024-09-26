@@ -361,6 +361,13 @@
 	const WILL_O_WISP  ; 160
 DEF NUM_ATTACKS EQU const_value - 1
 
+;;; TO ADD:
+;		Payback
+;		Avalanche
+;		U-Turn
+;		Brick Break
+
+
 	if NUM_ATTACKS > $3fff
 		fail "Too many moves defined!"
 	endc

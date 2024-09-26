@@ -298,7 +298,7 @@ Moves1:
 	move EFFECT_PRIORITY_HIT,       40, ICE,           100, 30,   0      ;ICE_SHARD
 	move EFFECT_FLINCH_HIT,         85, ICE,            90, 10,  30      ;ICICLE_CRASH
 	move EFFECT_HAIL,                0, ICE,           100, 10,   0      ;HAIL
-	move EFFECT_FLY,                80, WATER,         100, 10,   0      ;DIVE
+	move EFFECT_FLY,                80, WATER,         100, 10,   0      ;DIVE           ;;;;;;
 	move EFFECT_NORMAL_HIT,         90, WATER,          90, 10,   0      ;AQUA_TAIL
 	move EFFECT_PRIORITY_HIT,       40, WATER,         100, 20,   0      ;AQUA_JET
 	move EFFECT_CONFUSE_HIT,        60, WATER,         100, 20,  20      ;WATER_PULSE
@@ -339,7 +339,7 @@ Moves1:
 	move EFFECT_NORMAL_HIT,         70, GHOST,         100, 15,   0      ;SHADOW_CLAW
 	move EFFECT_PRIORITY_HIT,       40, GHOST,         100, 30,   0      ;SHADOW_SNEAK
 	move EFFECT_ALL_UP_HIT,         60, GHOST,         100,  5,   0      ;OMINOUS_WIND
-	move EFFECT_FLY,                90, GHOST,         100, 10,   0      ;PHANTOMFORCE
+	move EFFECT_FLY,                90, GHOST,         100, 10,   0      ;PHANTOMFORCE         ;;;;;;;;;
 	move EFFECT_NORMAL_HIT,         80, DRAGON,        100, 15,   0      ;DRAGON_CLAW
 	move EFFECT_NORMAL_HIT,         85, DRAGON,        100, 10,   0      ;DRAGON_PULSE
 	move EFFECT_FLINCH_HIT,        100, DRAGON,         75, 10,   0      ;DRAGON_RUSH
@@ -355,18 +355,18 @@ Moves1:
 	move EFFECT_ALWAYS_HIT,         70, STEEL,         100, 10,   0      ;SMART_STRIKE
 	move EFFECT_VOLT_TACKLE,       120, ELECTRIC,      100, 15,  10      ;VOLT_TACKLE
 	move EFFECT_BURN_HIT,           80, WATER,         100, 15,  20      ;SCALD
-	move EFFECT_BULK_UP,             0, FIGHTING,      100, 20,   0      ;BULK_UP
-	move EFFECT_CALM_MIND,           0, PSYCHIC_TYPE,  100, 20,   0      ;CALM_MIND
-	move EFFECT_COSMIC_POWER,        0, PSYCHIC_TYPE,  100, 20,   0      ;COSMIC_POWER
-	move EFFECT_DRAGON_DANCE,        0, DRAGON,        100, 20,   0      ;DRAGON_DANCE
-	move EFFECT_HEX,                65, GHOST,         100, 10,   0      ;HEX
-	move EFFECT_VENOSHOCK,          65, POISON,        100, 10,   0      ;VENOSHOCK
-	move EFFECT_FREEZE_DRY,         70, ICE,           100, 20,  10      ;FREEZE_DRY
-	move EFFECT_OVERHEAT,          130, FIRE,           90,  5,   0      ;OVERHEAT
-	move EFFECT_OVERHEAT,          130, DRAGON,         90,  5,   0      ;DRACO_METEOR
-	move EFFECT_CLOSE_COMBAT,      120, FIGHTING,      100,  5,   0      ;CLOSE_COMBAT
-	move EFFECT_FACADE,             70, NORMAL,        100, 20,   0      ;FACADE
-	move EFFECT_ACROBATICS,         55, FLYING,        100, 15,   0      ;ACROBATICS
+	move EFFECT_BULK_UP,             0, FIGHTING,      100, 20,   0      ;BULK_UP          ;;;;;
+	move EFFECT_CALM_MIND,           0, PSYCHIC_TYPE,  100, 20,   0      ;CALM_MIND          ;;;;;
+	move EFFECT_COSMIC_POWER,        0, PSYCHIC_TYPE,  100, 20,   0      ;COSMIC_POWER          ;;;;;
+	move EFFECT_DRAGON_DANCE,        0, DRAGON,        100, 20,   0      ;DRAGON_DANCE          ;;;;;
+	move EFFECT_HEX,                65, GHOST,         100, 10,   0      ;HEX          ;;;;;
+	move EFFECT_VENOSHOCK,          65, POISON,        100, 10,   0      ;VENOSHOCK          ;;;;;
+	move EFFECT_FREEZE_DRY,         70, ICE,           100, 20,  10      ;FREEZE_DRY          ;;;;;
+	move EFFECT_OVERHEAT,          130, FIRE,           90,  5,   0      ;OVERHEAT          ;;;;;
+	move EFFECT_OVERHEAT,          130, DRAGON,         90,  5,   0      ;DRACO_METEOR          ;;;;;
+	move EFFECT_CLOSE_COMBAT,      120, FIGHTING,      100,  5,   0      ;CLOSE_COMBAT          ;;;;;
+	move EFFECT_FACADE,             70, NORMAL,        100, 20,   0      ;FACADE          ;;;;;
+	move EFFECT_ACROBATICS,         55, FLYING,        100, 15,   0      ;ACROBATICS          ;;;;;
 	move EFFECT_TOXIC_HIT,          50, POISON,        100, 15,  50      ;POISON_FANG
 	move EFFECT_SPEED_DOWN_HIT,     55, GROUND,         95, 15, 100      ;MUD_SHOT
 	move EFFECT_HURRICANE,         110, FLYING,         70, 10,  30      ;HURRICANE
