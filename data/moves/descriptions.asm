@@ -326,7 +326,6 @@ MoveDescriptions1:
 	dw ShadowClawDescription
 	dw ShadowSneakDescription
 	dw OminousWindDescription
-	dw PhantomForceDescription
 	dw DragonClawDescription
 	dw DragonPulseDescription
 	dw DragonRushDescription
@@ -1647,10 +1646,6 @@ ShadowSneakDescription:
 OminousWindDescription: 
 	db   "An attack that may"
 	next "raise all stats.@"
-
-PhantomForceDescription: 
-	db   "1st turn: Vanish"
-	next "2nd turn: Attack@"
 
 DragonClawDescription: 
 	db   "Strike with a"

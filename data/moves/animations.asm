@@ -350,7 +350,6 @@ BattleAnimations::
 	dw BattleAnim_ShadowClaw
 	dw BattleAnim_ShadowSneak
 	dw BattleAnim_OminousWind
-	dw BattleAnim_PhantomForce
 	dw BattleAnim_DragonClaw
 	dw BattleAnim_DragonPulse
 	dw BattleAnim_DragonRush
@@ -888,7 +887,6 @@ BattleAnim_RockBlast:
 BattleAnim_ShadowClaw:
 BattleAnim_ShadowSneak:
 BattleAnim_OminousWind:
-BattleAnim_PhantomForce:
 BattleAnim_DragonClaw:
 BattleAnim_DragonPulse:
 BattleAnim_DragonRush:

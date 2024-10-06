@@ -298,7 +298,7 @@ Moves1:
 	move EFFECT_PRIORITY_HIT,       40, ICE,           100, 30,   0      ;ICE_SHARD
 	move EFFECT_FLINCH_HIT,         85, ICE,            90, 10,  30      ;ICICLE_CRASH
 	move EFFECT_HAIL,                0, ICE,           100, 10,   0      ;HAIL
-	move EFFECT_FLY,                80, WATER,         100, 10,   0      ;DIVE           ;;;;;;
+	move EFFECT_FLY,                80, WATER,         100, 10,   0      ;DIVE
 	move EFFECT_NORMAL_HIT,         90, WATER,          90, 10,   0      ;AQUA_TAIL
 	move EFFECT_PRIORITY_HIT,       40, WATER,         100, 20,   0      ;AQUA_JET
 	move EFFECT_CONFUSE_HIT,        60, WATER,         100, 20,  20      ;WATER_PULSE
@@ -339,7 +339,6 @@ Moves1:
 	move EFFECT_NORMAL_HIT,         70, GHOST,         100, 15,   0      ;SHADOW_CLAW
 	move EFFECT_PRIORITY_HIT,       40, GHOST,         100, 30,   0      ;SHADOW_SNEAK
 	move EFFECT_ALL_UP_HIT,         60, GHOST,         100,  5,   0      ;OMINOUS_WIND
-	move EFFECT_FLY,                90, GHOST,         100, 10,   0      ;PHANTOMFORCE         ;;;;;;;;;
 	move EFFECT_NORMAL_HIT,         80, DRAGON,        100, 15,   0      ;DRAGON_CLAW
 	move EFFECT_NORMAL_HIT,         85, DRAGON,        100, 10,   0      ;DRAGON_PULSE
 	move EFFECT_FLINCH_HIT,        100, DRAGON,         75, 10,   0      ;DRAGON_RUSH
