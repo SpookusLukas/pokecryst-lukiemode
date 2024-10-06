@@ -185,4 +185,5 @@ MoveEffectsPointers:
 	dw Hurricane
 	dw DoBurn
 ;	dw Payback
+	dw ScreenBreak
 	assert_table_length NUM_MOVE_EFFECTS

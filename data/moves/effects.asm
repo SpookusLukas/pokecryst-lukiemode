@@ -2539,3 +2539,25 @@ DoBurn:
 	;buildopponentrage
 	;kingsrock
 	;endmove
+
+ScreenBreak:
+	checkobedience
+	usedmovetext
+	doturn
+	critical
+	resettypematchup
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	moveanim
+	failuretext
+	screenbreak
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	kingsrock
+	endmove

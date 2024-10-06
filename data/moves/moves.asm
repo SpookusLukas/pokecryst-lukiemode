@@ -375,4 +375,5 @@ Moves1:
 	move EFFECT_ACCURACY_DOWN_HIT,  90, WATER,          85, 10,  30      ;MUDDY_WATER
 ;	move EFFECT_PAYBACK,            50, DARK,          100, 10,   0      ;PAYBACK
 ;	move EFFECT_PAYBACK,            60, ICE,           100, 10,   0      ;AVALANCHE
+	move EFFECT_SCREEN_BREAK,       75, FIGHTING,      100, 15,   0      ;BRICK_BREAK
 	.IndirectEnd::

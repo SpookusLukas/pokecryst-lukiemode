@@ -195,6 +195,7 @@ ENDM
 	command toxictarget             ; bc
 	command burn                    ; bd
 ;	command payback                 ; be
+	command screenbreak             ; bf
 DEF NUM_EFFECT_COMMANDS EQU const_value - 1
 
 	const_def -1, -1

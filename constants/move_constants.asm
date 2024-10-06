@@ -363,12 +363,11 @@
 	const MUDDY_WATER  ; 162
 ;	const PAYBACK      ; 163
 ;	const AVALANCHE    ; 164
+	const BRICK_BREAK  ; 165
 DEF NUM_ATTACKS EQU const_value - 1
 
 ;;; TO ADD:
 ;		U-Turn
-;		Brick Break
-
 
 	if NUM_ATTACKS > $3fff
 		fail "Too many moves defined!"

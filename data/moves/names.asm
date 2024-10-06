@@ -356,4 +356,5 @@ MoveNames::
 	li "MUDDY WATER"
 ;	li "PAYBACK"
 ;	li "AVALANCHE"
+	li "BRICK BREAK"
 	assert_list_length NUM_ATTACKS

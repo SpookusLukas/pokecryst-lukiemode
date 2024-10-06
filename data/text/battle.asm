@@ -1130,3 +1130,13 @@ AlreadyBurnedText:
 	text "<TARGET>'s"
 	line "already burned!"
 	prompt
+
+BrokeReflectText:
+	text "<TARGET>'s"
+	line "REFLECT shattered!"
+
+BrokeLightScreenText:
+	text "<TARGET>'s"
+	line "LIGHT SCREEN"
+	cont "shattered!"
+	prompt

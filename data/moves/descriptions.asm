@@ -362,6 +362,7 @@ MoveDescriptions1:
 	dw MuddyWaterDescription
 ;	dw PaybackDescription
 ;	dw AvalancheDescription
+	dw BrickBreakDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1790,3 +1791,7 @@ MuddyWaterDescription:
 ;AvalancheDescription: 
 ;	db   "2x damage if"
 ;	next "already attacked.@"
+
+BrickBreakDescription: 
+	db   "Breaks Reflect and"
+	next "Light Screen.@"
