@@ -360,6 +360,7 @@ CantMove:
 
 	res SUBSTATUS_UNDERGROUND, [hl]
 	res SUBSTATUS_FLYING, [hl]
+	res SUBSTATUS_UNDERWATER, [hl]
 	jp AppearUserRaiseSub
 
 .fly_dig_moves
@@ -533,7 +534,7 @@ CheckEnemyTurn:
 	ld de, ANIM_HIT_CONFUSION
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP
 	call GetBattleVar
-	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND
+	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_UNDERWATER
 	call z, PlayFXAnimID
 
 	ld c, TRUE
@@ -636,7 +637,7 @@ HitConfusion:
 	ld de, ANIM_HIT_CONFUSION
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP
 	call GetBattleVar
-	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND
+	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_UNDERWATER
 	call z, PlayFXAnimID
 
 	ld hl, UpdatePlayerHUD
@@ -1754,13 +1755,15 @@ BattleCommand_CheckHit:
 
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP
 	call GetBattleVar
-	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND
+	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_UNDERWATER
 	ret z
 
 	bit SUBSTATUS_FLYING, a
 	ld hl, .FlyMoves
 	jr z, .check_move_in_list
 	ld hl, .DigMoves
+	jr z, .check_move_in_list
+	ld hl, .DiveMoves
 .check_move_in_list
 	; returns z (and a = 0) if the current move is in a given list, or nz (and a = 1) if not
 	ld a, BATTLE_VARS_MOVE_ANIM
@@ -1772,15 +1775,20 @@ BattleCommand_CheckHit:
 
 .FlyMoves:
 	dw GUST
-	dw WHIRLWIND
 	dw THUNDER
 	dw TWISTER
+	dw HURRICANE
 	dw -1
 
 .DigMoves:
 	dw EARTHQUAKE
 	dw FISSURE
 	dw MAGNITUDE
+	dw -1
+
+.DiveMoves:
+	dw SURF
+	dw WHIRLPOOL
 	dw -1
 
 .ThunderRain:
@@ -2162,6 +2170,7 @@ BattleCommand_FailureText:
 	call GetBattleVarAddr
 	res SUBSTATUS_UNDERGROUND, [hl]
 	res SUBSTATUS_FLYING, [hl]
+	res SUBSTATUS_UNDERWATER, [hl]
 	call AppearUserRaiseSub
 	jp EndMoveEffect
 
@@ -3435,7 +3444,7 @@ FarPlayBattleAnimation:
 
 	ld a, BATTLE_VARS_SUBSTATUS3
 	call GetBattleVar
-	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND
+	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_UNDERWATER
 	ret nz
 
 	; fallthrough
@@ -3622,7 +3631,7 @@ DoSubstituteDamage:
 	call BattleCommand_LowerSubNoAnim
 	ld a, BATTLE_VARS_SUBSTATUS3
 	call GetBattleVar
-	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND
+	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_UNDERWATER
 	call z, AppearUserLowerSub
 	call BattleCommand_SwitchTurn
 
@@ -5680,6 +5689,7 @@ BattleCommand_CheckCharge:
 	res SUBSTATUS_CHARGED, [hl]
 	res SUBSTATUS_UNDERGROUND, [hl]
 	res SUBSTATUS_FLYING, [hl]
+	res SUBSTATUS_UNDERWATER, [hl]
 	ld b, charge_command
 	jp SkipToBattleCommand
 
@@ -5726,6 +5736,15 @@ BattleCommand_Charge:
 	ld a, h
 	call CompareMove
 	ld a, 1 << SUBSTATUS_UNDERGROUND
+	jr z, .got_move_type
+	if HIGH(DIG) != HIGH(DIVE)
+		ld bc, DIVE
+	else
+		ld c, LOW(DIVE)
+	endc
+	ld a, h
+	call CompareMove
+	ld a, 1 << SUBSTATUS_UNDERWATER
 	jr z, .got_move_type
 	call BattleCommand_RaiseSub
 	xor a
@@ -5794,6 +5813,7 @@ BattleCommand_Charge:
 	dw SKY_ATTACK, .BattleGlowingText
 	dw FLY,        .BattleFlewText
 	dw DIG,        .BattleDugText
+	dw DIVE,       .BattleDiveText
 	dw -1
 
 .BattleMadeWhirlwindText:
@@ -5818,6 +5838,10 @@ BattleCommand_Charge:
 
 .BattleDugText:
 	text_far _BattleDugText
+	text_end
+
+.BattleDiveText:
+	text_far _BattleDiveText
 	text_end
 
 BattleCommand_Unused3C:
@@ -6189,6 +6213,12 @@ BattleCommand_DoubleUndergroundDamage:
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP
 	call GetBattleVar
 	bit SUBSTATUS_UNDERGROUND, a
+	ret z
+
+BattleCommand_DoubleUnderwaterDamage:
+	ld a, BATTLE_VARS_SUBSTATUS3_OPP
+	call GetBattleVar
+	bit SUBSTATUS_UNDERWATER, a
 	ret z
 
 	; fallthrough
@@ -6773,7 +6803,7 @@ CheckHiddenOpponent:
 ; BUG: Lock-On and Mind Reader don't always bypass Fly and Dig (see docs/bugs_and_glitches.md)
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP
 	call GetBattleVar
-	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND
+	and 1 << SUBSTATUS_FLYING | 1 << SUBSTATUS_UNDERGROUND | 1 << SUBSTATUS_UNDERWATER
 	ret
 
 GetUserItem:
