@@ -373,4 +373,6 @@ Moves1:
 	move EFFECT_BURN,                0, FIRE,           85, 15,   0      ;WILL_O_WISP
 	move EFFECT_BURN_HIT,           85, FIRE,           90, 10,  10      ;BLAZE_KICK
 	move EFFECT_ACCURACY_DOWN_HIT,  90, WATER,          85, 10,  30      ;MUDDY_WATER
+;	move EFFECT_PAYBACK,            50, DARK,          100, 10,   0      ;PAYBACK
+;	move EFFECT_PAYBACK,            60, ICE,           100, 10,   0      ;AVALANCHE
 	.IndirectEnd::

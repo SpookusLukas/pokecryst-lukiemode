@@ -194,4 +194,5 @@ BattleCommandPointers:
 	dw BattleCommand_Acrobatics
 	dw BattleCommand_ToxicTarget
 	dw BattleCommand_Burn
+;	dw BattleCommand_Payback
 	assert_table_length NUM_EFFECT_COMMANDS

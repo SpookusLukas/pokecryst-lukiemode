@@ -17,3 +17,4 @@ INCLUDE "engine/battle/move_effects/close_combat.asm"
 
 INCLUDE "engine/battle/move_effects/facade.asm"
 INCLUDE "engine/battle/move_effects/acrobatics.asm"
+;INCLUDE "engine/battle/move_effects/payback.asm"

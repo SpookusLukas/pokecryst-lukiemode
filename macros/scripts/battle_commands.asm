@@ -193,7 +193,8 @@ ENDM
 	command facade                  ; ba
 	command acrobatics              ; bb
 	command toxictarget             ; bc
-	command burn                  ; bd
+	command burn                    ; bd
+;	command payback                 ; be
 DEF NUM_EFFECT_COMMANDS EQU const_value - 1
 
 	const_def -1, -1

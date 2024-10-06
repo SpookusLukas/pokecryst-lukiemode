@@ -2518,3 +2518,24 @@ DoBurn:
 	checksafeguard
 	burn
 	endmove
+
+;Payback:
+	;checkobedience
+	;usedmovetext
+	;doturn
+	;critical
+	;damagestats
+	;damagecalc
+	;stab
+	;damagevariation
+	;payback
+	;checkhit
+	;moveanim
+	;failuretext
+	;applydamage
+	;criticaltext
+	;supereffectivetext
+	;checkfaint
+	;buildopponentrage
+	;kingsrock
+	;endmove

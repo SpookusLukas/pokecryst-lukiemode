@@ -354,4 +354,6 @@ MoveNames::
 	li "WILL-O-WISP"
 	li "BLAZE KICK"
 	li "MUDDY WATER"
+;	li "PAYBACK"
+;	li "AVALANCHE"
 	assert_list_length NUM_ATTACKS

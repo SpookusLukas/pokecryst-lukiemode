@@ -361,11 +361,11 @@
 	const WILL_O_WISP  ; 160
 	const BLAZE_KICK   ; 161
 	const MUDDY_WATER  ; 162
+;	const PAYBACK      ; 163
+;	const AVALANCHE    ; 164
 DEF NUM_ATTACKS EQU const_value - 1
 
 ;;; TO ADD:
-;		Payback
-;		Avalanche
 ;		U-Turn
 ;		Brick Break
 

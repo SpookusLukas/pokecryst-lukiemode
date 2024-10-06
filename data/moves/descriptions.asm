@@ -360,6 +360,8 @@ MoveDescriptions1:
 	dw WillOWispDescription
 	dw BlazeKickDescription
 	dw MuddyWaterDescription
+;	dw PaybackDescription
+;	dw AvalancheDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
@@ -1780,3 +1782,11 @@ BlazeKickDescription:
 MuddyWaterDescription:
 	db   "An attack that may"
 	next "lower accuracy.@"
+
+;PaybackDescription: 
+;	db   "2x damage if"
+;	next "already attacked.@"
+
+;AvalancheDescription: 
+;	db   "2x damage if"
+;	next "already attacked.@"
