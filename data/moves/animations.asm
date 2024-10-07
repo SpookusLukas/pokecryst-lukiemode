@@ -819,15 +819,8 @@ BattleAnim_CometPunch:
 	anim_wait 8
 	anim_ret
 
-BattleAnim_DazzleGleam:
-BattleAnim_FairyWind:
-BattleAnim_Moonblast:
-BattleAnim_PlayRough:
-BattleAnim_DrainingKiss:
-BattleAnim_BabyDollEyes:
-BattleAnim_DisarmVoice:
-BattleAnim_SpiritBreak:
-BattleAnim_StrangeSteam:
+INCLUDE "data/moves/animations2.asm"
+
 BattleAnim_FireFang:
 BattleAnim_ThunderFang:
 BattleAnim_IceFang:
@@ -2734,6 +2727,7 @@ BattleAnim_Guillotine:
 	anim_wait 32
 	anim_ret
 
+BattleAnim_DazzleGleam:
 BattleAnim_Flash:
 	anim_1gfx BATTLE_ANIM_GFX_SPEED
 	anim_sound 0, 1, SFX_FLASH
@@ -2984,6 +2978,7 @@ BattleAnim_Conversion2:
 	anim_wait 48
 	anim_ret
 
+BattleAnim_StrangeSteam:
 BattleAnim_Smokescreen:
 	anim_3gfx BATTLE_ANIM_GFX_HAZE, BATTLE_ANIM_GFX_EGG, BATTLE_ANIM_GFX_SMOKE
 	anim_sound 6, 2, SFX_THROW_BALL
@@ -4085,6 +4080,7 @@ BattleAnim_SteelWing:
 	anim_wait 16
 	anim_ret
 
+BattleAnim_BabyDollEyes:
 BattleAnim_MeanLook:
 	anim_1gfx BATTLE_ANIM_GFX_PSYCHIC
 	anim_obp0 $e0
@@ -4190,6 +4186,7 @@ BattleAnim_Present:
 	anim_wait 128
 	anim_ret
 
+BattleAnim_SpiritBreak:	
 BattleAnim_Frustration:
 	anim_1gfx BATTLE_ANIM_GFX_MISC
 	anim_sound 0, 0, SFX_KINESIS_2
@@ -4383,6 +4380,7 @@ BattleAnim_RapidSpin:
 	anim_wait 1
 	anim_ret
 
+BattleAnim_FairyWind:
 BattleAnim_SweetScent:
 	anim_2gfx BATTLE_ANIM_GFX_FLOWER, BATTLE_ANIM_GFX_MISC
 	anim_sound 0, 0, SFX_SWEET_SCENT
