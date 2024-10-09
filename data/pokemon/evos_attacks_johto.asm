@@ -197,7 +197,8 @@ TotodileEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, SCRATCH
 	dbw 1, LEER
-	dbw 1, MOONBLAST
+	dbw 1, HYPER_VOICE
+	dbw 1, NASTY_PLOT
 	dbw 7, RAGE
 	dbw 13, WATER_GUN
 	dbw 20, BITE

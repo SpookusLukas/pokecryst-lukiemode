@@ -821,11 +821,7 @@ BattleAnim_CometPunch:
 
 INCLUDE "data/moves/animations2.asm"
 
-BattleAnim_FireFang:
-BattleAnim_ThunderFang:
-BattleAnim_IceFang:
 BattleAnim_GigaImpact:
-BattleAnim_HyperVoice:
 BattleAnim_Boomburst:
 BattleAnim_Covet:
 BattleAnim_FlareBlitz:
@@ -839,7 +835,6 @@ BattleAnim_ChargeBeam:
 BattleAnim_TripleAxel:
 BattleAnim_IceShard:
 BattleAnim_IcicleCrash:
-BattleAnim_Dive:
 BattleAnim_AquaTail:
 BattleAnim_AquaJet:
 BattleAnim_WaterPulse:
@@ -863,7 +858,6 @@ BattleAnim_DrillRun:
 BattleAnim_AerialAce:
 BattleAnim_AirSlash:
 BattleAnim_BraveBird:
-BattleAnim_DualWingbeat:
 BattleAnim_ZenHeadbutt:
 BattleAnim_Extrasensory:
 BattleAnim_PsychoCut:
@@ -884,7 +878,6 @@ BattleAnim_DragonClaw:
 BattleAnim_DragonPulse:
 BattleAnim_DragonRush:
 BattleAnim_DarkPulse:
-BattleAnim_NastyPlot:
 BattleAnim_Snarl:
 BattleAnim_NightSlash:
 BattleAnim_FlashCannon:
@@ -907,7 +900,6 @@ BattleAnim_DracoMeteor:
 BattleAnim_CloseCombat:
 BattleAnim_Facade:
 BattleAnim_Acrobatics:
-BattleAnim_PoisonFang:
 BattleAnim_MudShot:
 BattleAnim_Hurricane:
 BattleAnim_WillOWisp:
@@ -2084,6 +2076,7 @@ BattleAnim_Supersonic:
 	anim_wait 64
 	anim_ret
 
+BattleAnim_HyperVoice:
 BattleAnim_Screech:
 	anim_1gfx BATTLE_ANIM_GFX_PSYCHIC
 	anim_bgeffect BATTLE_BG_EFFECT_SHAKE_SCREEN_X, $8, $1, $20
@@ -2978,7 +2971,6 @@ BattleAnim_Conversion2:
 	anim_wait 48
 	anim_ret
 
-BattleAnim_StrangeSteam:
 BattleAnim_Smokescreen:
 	anim_3gfx BATTLE_ANIM_GFX_HAZE, BATTLE_ANIM_GFX_EGG, BATTLE_ANIM_GFX_SMOKE
 	anim_sound 6, 2, SFX_THROW_BALL
@@ -3254,6 +3246,7 @@ BattleAnim_LowKick:
 	anim_wait 16
 	anim_ret
 
+BattleAnim_DualWingbeat:
 BattleAnim_WingAttack:
 	anim_1gfx BATTLE_ANIM_GFX_HIT
 	anim_sound 0, 1, SFX_WING_ATTACK
@@ -3528,6 +3521,7 @@ BattleAnim_Aeroblast:
 	anim_wait 48
 	anim_ret
 
+BattleAnim_StrangeSteam:
 BattleAnim_CottonSpore:
 	anim_obp0 $54
 	anim_1gfx BATTLE_ANIM_GFX_MISC
@@ -4186,7 +4180,6 @@ BattleAnim_Present:
 	anim_wait 128
 	anim_ret
 
-BattleAnim_SpiritBreak:	
 BattleAnim_Frustration:
 	anim_1gfx BATTLE_ANIM_GFX_MISC
 	anim_sound 0, 0, SFX_KINESIS_2
@@ -4655,6 +4648,7 @@ BattleAnim_MirrorCoat:
 	anim_wait 32
 	anim_ret
 
+BattleAnim_NastyPlot:
 BattleAnim_PsychUp:
 	anim_1gfx BATTLE_ANIM_GFX_STATUS
 	anim_call BattleAnim_TargetObj_1Row
