@@ -183,3 +183,23 @@ BattleAnim_Dive:
 	anim_bgeffect BATTLE_BG_EFFECT_ENTER_MON, $0, BG_EFFECT_USER, $0
 	anim_wait 32
 	anim_ret
+
+BattleAnim_WillOWisp:
+	anim_1gfx BATTLE_ANIM_GFX_FIRE
+    anim_bgp $1b
+.loop
+	anim_sound 6, 2, SFX_EMBER
+	anim_obj BATTLE_ANIM_OBJ_FIRE_SPIN, 64, 88, $4
+	anim_wait 2
+	anim_sound 6, 2, SFX_EMBER
+	anim_obj BATTLE_ANIM_OBJ_FIRE_SPIN, 64, 96, $3
+	anim_wait 2
+	anim_sound 6, 2, SFX_EMBER
+	anim_obj BATTLE_ANIM_OBJ_FIRE_SPIN, 64, 88, $3
+	anim_wait 2
+	anim_sound 6, 2, SFX_EMBER
+	anim_obj BATTLE_ANIM_OBJ_FIRE_SPIN, 64, 96, $4
+	anim_wait 2
+	anim_loop 2, .loop
+	anim_wait 96
+	anim_ret

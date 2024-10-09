@@ -360,6 +360,8 @@ INCLUDE "engine/events/treemons.asm"
 INCLUDE "engine/events/fishing_gfx.asm"
 INCLUDE "engine/pokegear/radio.asm"
 INCLUDE "engine/pokemon/mail_2.asm"
+INCLUDE "engine/events/poisonstep_pals.asm"
+
 
 
 SECTION "Phone Scripts 2", ROMX
@@ -405,8 +407,6 @@ SECTION "bank32", ROMX
 
 INCLUDE "engine/battle_anims/bg_effects.asm"
 INCLUDE "data/moves/animations.asm"
-INCLUDE "engine/events/poisonstep_pals.asm"
-
 
 SECTION "Move Animations", ROMX
 
