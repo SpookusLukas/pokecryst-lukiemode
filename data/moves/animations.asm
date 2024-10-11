@@ -821,8 +821,6 @@ BattleAnim_CometPunch:
 
 INCLUDE "data/moves/animations2.asm"
 
-BattleAnim_GigaImpact:
-BattleAnim_Boomburst:
 BattleAnim_FlareBlitz:
 BattleAnim_FlameCharge:
 BattleAnim_MysticFire:
